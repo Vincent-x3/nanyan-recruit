@@ -5,713 +5,721 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>青春南燕探索之旅 · 深研院共青团系统2026招新</title>
 <style>
-  :root {
-    --red-deep: #7A1212;
-    --red-main: #B5222E;
-    --red-mid: #D4353F;
-    --red-light: #FFF0F0;
-    --bg: #FDFCFC;
-    --bg-warm: #FDF8F6;
-    --text: #1A1A1A;
-    --text-sub: #5A5A5A;
-    --text-light: #888;
-    --white: #FFFFFF;
-    --border: #E8DDDD;
-    --border-light: #F2EBEB;
-    --blue-accent: #1A4F8C;
-    --blue-light: #EDF4FC;
-    --purple-accent: #5B2D8E;
-    --purple-light: #F5F0FB;
-    --gold: #C8960C;
-    --gold-light: #FFF8E6;
-    --shadow-sm: 0 1px 3px rgba(0,0,0,0.04);
-    --shadow-md: 0 4px 16px rgba(0,0,0,0.07);
-    --shadow-lg: 0 8px 32px rgba(0,0,0,0.10);
-    --radius-sm: 8px;
-    --radius-md: 14px;
-    --radius-lg: 20px;
-  }
+ :root {
+ --red-deep: #7A1212;
+ --red-main: #B5222E;
+ --red-mid: #D4353F;
+ --red-light: #FFF0F0;
+ --bg: #FDFCFC;
+ --bg-warm: #FDF8F6;
+ --text: #1A1A1A;
+ --text-sub: #5A5A5A;
+ --text-light: #888;
+ --white: #FFFFFF;
+ --border: #E8DDDD;
+ --border-light: #F2EBEB;
+ --blue-accent: #1A4F8C;
+ --blue-light: #EDF4FC;
+ --purple-accent: #5B2D8E;
+ --purple-light: #F5F0FB;
+ --gold: #C8960C;
+ --gold-light: #FFF8E6;
+ --shadow-sm: 0 1px 3px rgba(0,0,0,0.04);
+ --shadow-md: 0 4px 16px rgba(0,0,0,0.07);
+ --shadow-lg: 0 8px 32px rgba(0,0,0,0.10);
+ --radius-sm: 8px;
+ --radius-md: 14px;
+ --radius-lg: 20px;
+ }
 
-  * { box-sizing: border-box; margin: 0; padding: 0; }
-  html { scroll-behavior: smooth; }
+ * { box-sizing: border-box; margin: 0; padding: 0; }
+ html { scroll-behavior: smooth; }
 
-  body {
-    font-family: "PingFang SC", "Noto Sans SC", "Microsoft YaHei", system-ui, sans-serif;
-    background: var(--bg);
-    color: var(--text);
-    line-height: 1.75;
-    -webkit-font-smoothing: antialiased;
-  }
+ body {
+ font-family: "PingFang SC", "Noto Sans SC", "Microsoft YaHei", system-ui, sans-serif;
+ background: var(--bg);
+ color: var(--text);
+ line-height: 1.75;
+ -webkit-font-smoothing: antialiased;
+ }
 
-  /* ── HERO ── */
-  .hero {
-    background: linear-gradient(165deg, #5C0E0E 0%, #8C1A1A 30%, #B5222E 65%, #A01C22 100%);
-    color: var(--white);
-    padding: 60px 24px 72px;
-    text-align: center;
-    position: relative;
-    overflow: hidden;
-  }
-  .hero::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background:
-      radial-gradient(ellipse at 20% 20%, rgba(255,255,255,0.06) 0%, transparent 60%),
-      radial-gradient(ellipse at 80% 70%, rgba(255,255,255,0.04) 0%, transparent 50%);
-    pointer-events: none;
-  }
-  .hero-watermark {
-    position: absolute;
-    font-size: 180px; font-weight: 900;
-    color: rgba(255,255,255,0.025);
-    top: 10px; left: 50%;
-    transform: translateX(-50%);
-    white-space: nowrap; pointer-events: none;
-    letter-spacing: 16px;
-  }
-  .hero-badge {
-    display: inline-flex; align-items: center; gap: 8px;
-    background: rgba(255,255,255,0.12);
-    border: 1px solid rgba(255,255,255,0.22);
-    border-radius: 22px; padding: 6px 20px;
-    font-size: 13px; letter-spacing: 2px;
-    margin-bottom: 28px; position: relative; z-index: 1;
-    backdrop-filter: blur(4px);
-  }
-  .dot { width: 5px; height: 5px; background: #F5C842; border-radius: 50%; display:inline-block; }
-  .hero h1 {
-    font-size: clamp(44px, 7vw, 72px); font-weight: 900;
-    letter-spacing: 4px; line-height: 1.15; margin-bottom: 8px;
-    position: relative; z-index: 1;
-  }
-  .hero h1 em {
-    font-style: normal;
-    background: linear-gradient(180deg, #FFD4D4 0%, #FFA8A8 40%, #FFCACA 100%);
-    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
-    background-clip: text;
-  }
-  .hero-sub { font-size: 17px; letter-spacing: 6px; opacity: 0.85; margin-bottom: 6px; position: relative; z-index: 1; }
-  .hero-tagline { font-size: 13px; opacity: 0.5; letter-spacing: 3px; margin-bottom: 48px; position: relative; z-index: 1; }
+ /* ── HERO ── */
+ .hero {
+ background: linear-gradient(165deg, #5C0E0E 0%, #8C1A1A 30%, #B5222E 65%, #A01C22 100%);
+ color: var(--white);
+ padding: 60px 24px 72px;
+ text-align: center;
+ position: relative;
+ overflow: hidden;
+ }
+ .hero::before {
+ content: "";
+ position: absolute;
+ inset: 0;
+ background:
+ radial-gradient(ellipse at 20% 20%, rgba(255,255,255,0.06) 0%, transparent 60%),
+ radial-gradient(ellipse at 80% 70%, rgba(255,255,255,0.04) 0%, transparent 50%);
+ pointer-events: none;
+ }
+ .hero-watermark {
+ position: absolute;
+ font-size: 180px; font-weight: 900;
+ color: rgba(255,255,255,0.025);
+ top: 10px; left: 50%;
+ transform: translateX(-50%);
+ white-space: nowrap; pointer-events: none;
+ letter-spacing: 16px;
+ }
+ .hero-badge {
+ display: inline-flex; align-items: center; gap: 8px;
+ background: rgba(255,255,255,0.12);
+ border: 1px solid rgba(255,255,255,0.22);
+ border-radius: 22px; padding: 6px 20px;
+ font-size: 13px; letter-spacing: 2px;
+ margin-bottom: 28px; position: relative; z-index: 1;
+ backdrop-filter: blur(4px);
+ }
+ .dot { width: 5px; height: 5px; background: #F5C842; border-radius: 50%; display:inline-block; }
+ .hero h1 {
+ font-size: clamp(44px, 7vw, 72px); font-weight: 900;
+ letter-spacing: 4px; line-height: 1.15; margin-bottom: 8px;
+ position: relative; z-index: 1;
+ }
+ .hero h1 em {
+ font-style: normal;
+ background: linear-gradient(180deg, #FFD4D4 0%, #FFA8A8 40%, #FFCACA 100%);
+ -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+ background-clip: text;
+ }
+ .hero-sub { font-size: 17px; letter-spacing: 6px; opacity: 0.85; margin-bottom: 6px; position: relative; z-index: 1; }
+ .hero-tagline { font-size: 13px; opacity: 0.5; letter-spacing: 3px; margin-bottom: 48px; position: relative; z-index: 1; }
 
-  /* ── QR STRIP ── */
-  .qr-strip {
-    display: flex; gap: 14px; justify-content: center;
-    align-items: flex-start; flex-wrap: wrap;
-    max-width: 900px; margin: 0 auto; position: relative; z-index: 2;
-  }
-  .qr-card {
-    background: var(--white); border-radius: 16px;
-    padding: 18px 16px 14px; display: flex;
-    flex-direction: column; align-items: center; gap: 8px;
-    box-shadow: 0 8px 36px rgba(0,0,0,0.18);
-    min-width: 148px; transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    border-top: 4px solid var(--red-main);
-  }
-  .qr-card.primary {
-    border-top: 4px solid var(--gold); transform: scale(1.08);
-    box-shadow: 0 14px 44px rgba(0,0,0,0.28); z-index: 3;
-  }
-  .qr-card:hover { transform: translateY(-6px); box-shadow: 0 14px 44px rgba(0,0,0,0.2); }
-  .qr-card.primary:hover { transform: translateY(-6px) scale(1.1); }
-  .qr-tag {
-    font-size: 11px; font-weight: 700; letter-spacing: 1px;
-    padding: 3px 12px; border-radius: 20px;
-  }
-  .tag-red { background: var(--red-light); color: var(--red-main); }
-  .tag-gold { background: var(--gold-light); color: #7A5200; }
-  .tag-blue { background: var(--blue-light); color: var(--blue-accent); }
-  .tag-purple { background: var(--purple-light); color: var(--purple-accent); }
-  .qr-img-wrap {
-    width: 96px; height: 96px; border-radius: 10px;
-    border: 1.5px solid var(--border); overflow: hidden;
-    background: #FAFAFA; display: flex; align-items: center; justify-content: center;
-  }
-  .qr-img-wrap img { width: 100%; height: 100%; object-fit: contain; }
-  .qr-img-wrap.big { width: 110px; height: 110px; border-color: var(--gold); border-width: 2px; }
-  .qr-label { font-size: 13px; font-weight: 800; color: var(--text); text-align:center; line-height:1.3; }
-  .qr-sub { font-size: 11px; color: var(--text-sub); text-align:center; line-height:1.4; }
+ /* ── QR STRIP ── */
+ .qr-strip {
+ display: flex; gap: 14px; justify-content: center;
+ align-items: flex-start; flex-wrap: wrap;
+ max-width: 1100px; margin: 0 auto; position: relative; z-index: 2;
+ }
+ .qr-card {
+ background: var(--white); border-radius: 16px;
+ padding: 18px 16px 14px; display: flex;
+ flex-direction: column; align-items: center; gap: 8px;
+ box-shadow: 0 8px 36px rgba(0,0,0,0.18);
+ min-width: 148px; transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+ border-top: 4px solid var(--red-main);
+ }
+ .qr-card.primary {
+ border-top: 4px solid var(--gold); transform: scale(1.08);
+ box-shadow: 0 14px 44px rgba(0,0,0,0.28); z-index: 3;
+ }
+ .qr-card:hover { transform: translateY(-6px); box-shadow: 0 14px 44px rgba(0,0,0,0.2); }
+ .qr-card.primary:hover { transform: translateY(-6px) scale(1.1); }
+ .qr-tag {
+ font-size: 11px; font-weight: 700; letter-spacing: 1px;
+ padding: 3px 12px; border-radius: 20px;
+ }
+ .tag-red { background: var(--red-light); color: var(--red-main); }
+ .tag-gold { background: var(--gold-light); color: #7A5200; }
+ .tag-blue { background: var(--blue-light); color: var(--blue-accent); }
+ .tag-purple { background: var(--purple-light); color: var(--purple-accent); }
+ .qr-img-wrap {
+ width: 96px; height: 96px; border-radius: 10px;
+ border: 1.5px solid var(--border); overflow: hidden;
+ background: #FAFAFA; display: flex; align-items: center; justify-content: center;
+ }
+ .qr-img-wrap img { width: 100%; height: 100%; object-fit: contain; }
+ .qr-img-wrap.big { width: 110px; height: 110px; border-color: var(--gold); border-width: 2px; }
+ .qr-label { font-size: 13px; font-weight: 800; color: var(--text); text-align:center; line-height:1.3; }
+ .qr-sub { font-size: 11px; color: var(--text-sub); text-align:center; line-height:1.4; }
 
-  @keyframes blink { 0%,100%{opacity:1} 50%{opacity:.25} }
-  .live { display:inline-flex; align-items:center; gap:5px; font-size:12px; color:#2E7D32; font-weight:700; }
-  .live::before { content:''; width:7px; height:7px; background:#4CAF50; border-radius:50%; display:inline-block; animation:blink 1.4s infinite; }
+ @keyframes blink { 0%,100%{opacity:1} 50%{opacity:.25} }
+ .live { display:inline-flex; align-items:center; gap:5px; font-size:12px; color:#2E7D32; font-weight:700; }
+ .live::before { content:''; width:7px; height:7px; background:#4CAF50; border-radius:50%; display:inline-block; animation:blink 1.4s infinite; }
 
-  /* ── FOREWORD ── */
-  .foreword-wrap {
-    background: linear-gradient(180deg, var(--bg-warm) 0%, var(--white) 100%);
-    padding: 64px 24px 56px; border-bottom: 1px solid var(--border-light);
-  }
-  .foreword { max-width: 760px; margin: 0 auto; text-align: center; }
-  .foreword-icon { font-size: 40px; margin-bottom: 16px; }
-  .foreword h2 { font-size: 26px; font-weight: 900; color: var(--red-deep); letter-spacing: 3px; margin-bottom: 8px; }
-  .foreword .greeting { font-size: 17px; font-weight: 700; color: var(--red-main); margin-bottom: 20px; }
-  .foreword p { font-size: 15px; color: var(--text-sub); line-height: 2; margin-bottom: 14px; }
-  .foreword .signature { margin-top: 24px; font-size: 13px; color: var(--text-light); letter-spacing: 2px; }
+ /* ── FOREWORD ── */
+ .foreword-wrap {
+ background: linear-gradient(180deg, var(--bg-warm) 0%, var(--white) 100%);
+ padding: 64px 24px 56px; border-bottom: 1px solid var(--border-light);
+ }
+ .foreword { max-width: 760px; margin: 0 auto; text-align: center; }
+ .foreword-icon { font-size: 40px; margin-bottom: 16px; }
+ .foreword h2 { font-size: 26px; font-weight: 900; color: var(--red-deep); letter-spacing: 3px; margin-bottom: 8px; }
+ .foreword .greeting { font-size: 17px; font-weight: 700; color: var(--red-main); margin-bottom: 20px; }
+ .foreword p { font-size: 15px; color: var(--text-sub); line-height: 2; margin-bottom: 14px; text-align: justify; }
+ .foreword .signature { margin-top: 24px; font-size: 13px; color: var(--text-light); letter-spacing: 2px; text-align: right; }
 
-  /* ── NAV ── */
-  .nav-bar {
-    position: sticky; top: 0; z-index: 100;
-    background: rgba(255,255,255,0.95); backdrop-filter: blur(12px);
-    border-bottom: 1px solid var(--border-light);
-    display: flex; justify-content: center; gap: 4px;
-    box-shadow: var(--shadow-sm); padding: 0 12px;
-  }
-  .nav-tab {
-    padding: 15px 28px; font-size: 14px; font-weight: 700; letter-spacing: 1px;
-    cursor: pointer; border: none; background: none; color: var(--text-sub);
-    border-bottom: 3px solid transparent;
-    transition: all .25s; position: relative; top: 1px; white-space: nowrap;
-  }
-  .nav-tab:hover { color: var(--red-main); }
-  .nav-tab.active { color: var(--red-main); border-bottom-color: var(--red-main); }
-  .nav-tab.t-blue.active { color: var(--blue-accent); border-bottom-color: var(--blue-accent); }
-  .nav-tab.t-purple.active { color: var(--purple-accent); border-bottom-color: var(--purple-accent); }
-  .nav-num {
-    display:inline-flex; align-items:center; justify-content:center;
-    width:20px; height:20px; border-radius:50%;
-    background: var(--red-main); color:white;
-    font-size:11px; font-weight:800; margin-right:6px;
-  }
-  .t-blue .nav-num { background: var(--blue-accent); }
-  .t-purple .nav-num { background: var(--purple-accent); }
+ /* ── NAV ── */
+ .nav-bar {
+ position: sticky; top: 0; z-index: 100;
+ background: rgba(255,255,255,0.95); backdrop-filter: blur(12px);
+ border-bottom: 1px solid var(--border-light);
+ display: flex; justify-content: center; gap: 4px;
+ box-shadow: var(--shadow-sm); padding: 0 12px;
+ }
+ .nav-tab {
+ padding: 15px 28px; font-size: 14px; font-weight: 700; letter-spacing: 1px;
+ cursor: pointer; border: none; background: none; color: var(--text-sub);
+ border-bottom: 3px solid transparent;
+ transition: all .25s; position: relative; top: 1px; white-space: nowrap;
+ }
+ .nav-tab:hover { color: var(--red-main); }
+ .nav-tab.active { color: var(--red-main); border-bottom-color: var(--red-main); }
+ .nav-tab.t-blue.active { color: var(--blue-accent); border-bottom-color: var(--blue-accent); }
+ .nav-tab.t-purple.active { color: var(--purple-accent); border-bottom-color: var(--purple-accent); }
+ .nav-num {
+ display:inline-flex; align-items:center; justify-content:center;
+ width:20px; height:20px; border-radius:50%;
+ background: var(--red-main); color:white;
+ font-size:11px; font-weight:800; margin-right:6px;
+ }
+ .t-blue .nav-num { background: var(--blue-accent); }
+ .t-purple .nav-num { background: var(--purple-accent); }
 
-  /* ── SECTIONS ── */
-  .section { display:none; }
-  .section.active { display:block; }
-  .section-inner { max-width: 1040px; margin: 0 auto; padding: 48px 24px 72px; }
-  .section-hero {
-    text-align: center; padding: 28px 0 40px;
-    margin-bottom: 40px; border-bottom: 1px solid var(--border);
-  }
-  .section-title-cn { font-size: 32px; font-weight: 900; letter-spacing: 4px; margin-bottom: 4px; }
-  .s-red { color: var(--red-deep); } .s-blue { color: var(--blue-accent); } .s-purple { color: var(--purple-accent); }
-  .section-slogan { font-size: 13px; letter-spacing: 4px; color: var(--text-sub); margin-bottom: 16px; }
-  .section-desc { font-size: 14.5px; color: var(--text-sub); max-width: 720px; margin: 0 auto; line-height: 2; }
+ /* ── SECTIONS ── */
+ .section { display:none; }
+ .section.active { display:block; }
+ .section-inner { max-width: 1040px; margin: 0 auto; padding: 48px 24px 72px; }
+ .section-hero {
+ text-align: center; padding: 28px 0 40px;
+ margin-bottom: 40px; border-bottom: 1px solid var(--border);
+ }
+ .section-title-cn { font-size: 32px; font-weight: 900; letter-spacing: 4px; margin-bottom: 4px; }
+ .s-red { color: var(--red-deep); } .s-blue { color: var(--blue-accent); } .s-purple { color: var(--purple-accent); }
+ .section-slogan { font-size: 13px; letter-spacing: 4px; color: var(--text-sub); margin-bottom: 16px; }
+ .section-desc { font-size: 14.5px; color: var(--text-sub); max-width: 720px; margin: 0 auto; line-height: 2; text-align: justify; }
 
-  /* ── ORG CHART ── */
-  .org-chart {
-    background: linear-gradient(135deg, #FFF8F8 0%, var(--white) 100%);
-    border-radius: var(--radius-lg); padding: 32px 24px 24px;
-    border: 1px solid var(--border); text-align: center; margin: 28px 0 36px;
-  }
-  .org-chart-label { font-size: 12px; color: var(--text-sub); letter-spacing: 3px; margin-bottom: 20px; }
-  .org-row { display: flex; align-items: center; justify-content: center; gap: 8px; flex-wrap: wrap; margin: 4px 0; }
-  .org-box { background: var(--red-main); color: white; padding: 8px 22px; border-radius: 8px; font-size: 14px; font-weight: 700; letter-spacing: 1px; }
-  .org-box.light { background: var(--white); color: var(--red-main); border: 1.5px solid var(--red-main); font-size: 12px; padding: 6px 14px; }
-  .org-connector { width: 1.5px; height: 16px; background: var(--red-main); margin: 0 auto; opacity: 0.5; }
-  .org-stats {
-    display: inline-flex; gap: 28px; margin-top: 18px;
-    background: var(--white); border-radius: 12px; padding: 14px 28px; border: 1px solid var(--border);
-  }
-  .org-stat-num { font-size: 24px; font-weight: 900; color: var(--red-main); display: block; text-align: center; }
-  .org-stat-lbl { font-size: 11px; color: var(--text-sub); margin-top: 2px; }
+ /* ── ORG CHART ── */
+ .org-chart {
+ background: linear-gradient(135deg, #FFF8F8 0%, var(--white) 100%);
+ border-radius: var(--radius-lg); padding: 32px 24px 24px;
+ border: 1px solid var(--border); text-align: center; margin: 28px 0 36px;
+ }
+ .org-chart-label { font-size: 12px; color: var(--text-sub); letter-spacing: 3px; margin-bottom: 20px; }
+ .org-row { display: flex; align-items: center; justify-content: center; gap: 8px; flex-wrap: wrap; margin: 4px 0; }
+ .org-box { background: var(--red-main); color: white; padding: 8px 22px; border-radius: 8px; font-size: 14px; font-weight: 700; letter-spacing: 1px; }
+ .org-box.light { background: var(--white); color: var(--red-main); border: 1.5px solid var(--red-main); font-size: 12px; padding: 6px 14px; }
+ .org-connector { width: 1.5px; height: 16px; background: var(--red-main); margin: 0 auto; opacity: 0.5; }
+ .org-stats {
+ display: inline-flex; gap: 28px; margin-top: 18px;
+ background: var(--white); border-radius: 12px; padding: 14px 28px; border: 1px solid var(--border);
+ }
+ .org-stat-num { font-size: 24px; font-weight: 900; color: var(--red-main); display: block; text-align: center; }
+ .org-stat-lbl { font-size: 11px; color: var(--text-sub); margin-top: 2px; }
 
-  /* ── DIVIDER ── */
-  .sec-divider {
-    display: flex; align-items: center; gap: 14px; margin: 44px 0 22px;
-  }
-  .sec-divider::before,.sec-divider::after { content: ''; flex: 1; height: 1px; background: var(--border); }
-  .sec-divider span { font-size: 12px; color: var(--text-sub); letter-spacing: 3px; white-space: nowrap; font-weight: 700; }
+ /* ── DIVIDER ── */
+ .sec-divider {
+ display: flex; align-items: center; gap: 14px; margin: 44px 0 22px;
+ }
+ .sec-divider::before,.sec-divider::after { content: ''; flex: 1; height: 1px; background: var(--border); }
+ .sec-divider span { font-size: 12px; color: var(--text-sub); letter-spacing: 3px; white-space: nowrap; font-weight: 700; }
 
-  /* ── DEPT CARDS ── */
-  .dept-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(310px, 1fr)); gap: 16px; margin-top: 24px; }
-  .dept-card {
-    background: var(--white); border: 1px solid var(--border);
-    border-radius: var(--radius-md); padding: 24px 22px 22px;
-    position: relative; overflow: hidden;
-    transition: all 0.25s;
-  }
-  .dept-card:hover { box-shadow: var(--shadow-md); transform: translateY(-3px); }
-  .dept-card::before { content: ''; position: absolute; top: 0; left: 0; width: 4px; height: 100%; border-radius: 4px 0 0 4px; }
-  .dc-red::before { background: var(--red-main); }
-  .dc-blue::before { background: var(--blue-accent); }
-  .dc-purple::before { background: var(--purple-accent); }
-  .dept-num { font-size: 11px; font-weight: 700; letter-spacing: 2px; margin-bottom: 4px; }
-  .dc-red .dept-num { color: var(--red-main); }
-  .dc-blue .dept-num { color: var(--blue-accent); }
-  .dc-purple .dept-num { color: var(--purple-accent); }
-  .dept-name { font-size: 19px; font-weight: 800; margin-bottom: 8px; letter-spacing: 1px; }
-  .dept-body { font-size: 13.5px; color: var(--text-sub); line-height: 1.85; }
-  .dept-highlights { margin-top: 12px; padding-top: 12px; border-top: 1px dashed var(--border-light); }
-  .dept-highlights .hl-label { font-size: 11px; font-weight: 700; letter-spacing: 1px; margin-bottom: 4px; }
-  .dc-red .hl-label { color: var(--red-main); }
-  .dc-blue .hl-label { color: var(--blue-accent); }
-  .dept-highlights .hl-items { font-size: 12px; color: var(--text-sub); line-height: 1.7; }
+ /* ── DEPT CARDS ── */
+ .dept-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(310px, 1fr)); gap: 16px; margin-top: 24px; }
+ .dept-card {
+ background: var(--white); border: 1px solid var(--border);
+ border-radius: var(--radius-md); padding: 24px 22px 22px;
+ position: relative; overflow: hidden;
+ transition: all 0.25s;
+ }
+ .dept-card:hover { box-shadow: var(--shadow-md); transform: translateY(-3px); }
+ .dept-card::before { content: ''; position: absolute; top: 0; left: 0; width: 4px; height: 100%; border-radius: 4px 0 0 4px; }
+ .dc-red::before { background: var(--red-main); }
+ .dc-blue::before { background: var(--blue-accent); }
+ .dc-purple::before { background: var(--purple-accent); }
+ .dept-num { font-size: 11px; font-weight: 700; letter-spacing: 2px; margin-bottom: 4px; }
+ .dc-red .dept-num { color: var(--red-main); }
+ .dc-blue .dept-num { color: var(--blue-accent); }
+ .dc-purple .dept-num { color: var(--purple-accent); }
+ .dept-name { font-size: 19px; font-weight: 800; margin-bottom: 8px; letter-spacing: 1px; }
+ .dept-body { font-size: 13.5px; color: var(--text-sub); line-height: 1.85; text-align: justify; }
+ .dept-highlights { margin-top: 12px; padding-top: 12px; border-top: 1px dashed var(--border-light); }
+ .dept-highlights .hl-label { font-size: 11px; font-weight: 700; letter-spacing: 1px; margin-bottom: 4px; }
+ .dc-red .hl-label { color: var(--red-main); }
+ .dc-blue .hl-label { color: var(--blue-accent); }
+ .dept-highlights .hl-items { font-size: 12px; color: var(--text-sub); line-height: 1.7; }
 
-  /* ── PHOTO STRIP inside dept cards ── */
-  .photo-strip {
-    display: flex; gap: 8px; overflow-x: auto;
-    padding-top: 14px; margin-top: 14px;
-    border-top: 1px solid var(--border-light);
-    scroll-snap-type: x mandatory;
-    -webkit-overflow-scrolling: touch;
-  }
-  .photo-strip::-webkit-scrollbar { height: 4px; }
-  .photo-strip::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
-  .photo-strip img {
-    width: 180px; height: 120px;
-    object-fit: cover;
-    border-radius: 8px; cursor: pointer;
-    scroll-snap-align: start;
-    transition: transform 0.2s; flex-shrink: 0;
-    border: 1px solid var(--border-light);
-  }
-  .photo-strip img:hover { transform: scale(1.04); box-shadow: var(--shadow-md); }
-  .photo-strip .no-photo {
-    width: 100%; height: 80px; display: flex; align-items: center; justify-content: center;
-    background: var(--bg-warm); border-radius: 8px; border: 1px dashed var(--border);
-    color: var(--text-light); font-size: 11px; text-align: center; flex-shrink: 0;
-  }
+ /* ── PHOTO STRIP inside dept cards ── */
+ .photo-strip {
+ display: flex; gap: 8px; overflow-x: auto;
+ padding-top: 14px; margin-top: 14px;
+ border-top: 1px solid var(--border-light);
+ scroll-snap-type: x mandatory;
+ -webkit-overflow-scrolling: touch;
+ }
+ .photo-strip::-webkit-scrollbar { height: 4px; }
+ .photo-strip::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
+ .photo-strip img {
+ width: 180px; height: 120px;
+ object-fit: cover;
+ border-radius: 8px; cursor: pointer;
+ scroll-snap-align: start;
+ transition: transform 0.2s; flex-shrink: 0;
+ border: 1px solid var(--border-light);
+ }
+ .photo-strip img:hover { transform: scale(1.04); box-shadow: var(--shadow-md); }
+ .photo-strip .no-photo {
+ width: 100%; height: 80px; display: flex; align-items: center; justify-content: center;
+ background: var(--bg-warm); border-radius: 8px; border: 1px dashed var(--border);
+ color: var(--text-light); font-size: 11px; text-align: center; flex-shrink: 0;
+ }
 
-  /* ── PHOTO GRID for more photos ── */
-  .photo-grid {
-    display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px;
-    padding-top: 14px; margin-top: 14px;
-    border-top: 1px solid var(--border-light);
-  }
-  .photo-grid img {
-    width: 100%; height: 110px;
-    object-fit: cover; border-radius: 8px;
-    cursor: pointer; transition: transform 0.2s;
-    border: 1px solid var(--border-light);
-  }
-  .photo-grid img:hover { transform: scale(1.03); box-shadow: var(--shadow-md); }
-  @media (max-width: 500px) { .photo-grid { grid-template-columns: repeat(2, 1fr); } }
+ /* ── PHOTO GRID for more photos ── */
+ .photo-grid {
+ display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px;
+ padding-top: 14px; margin-top: 14px;
+ border-top: 1px solid var(--border-light);
+ }
+ .photo-grid img {
+ width: 100%; height: 110px;
+ object-fit: cover; border-radius: 8px;
+ cursor: pointer; transition: transform 0.2s;
+ border: 1px solid var(--border-light);
+ }
+ .photo-grid img:hover { transform: scale(1.03); box-shadow: var(--shadow-md); }
+ @media (max-width: 500px) { .photo-grid { grid-template-columns: repeat(2, 1fr); } }
 
-  /* ── LIGHTBOX ── */
-  .lightbox {
-    display: none; position: fixed; inset: 0; z-index: 9999;
-    background: rgba(0,0,0,0.92); align-items: center; justify-content: center;
-    cursor: pointer;
-  }
-  .lightbox.active { display: flex; }
-  .lightbox img { max-width: 92vw; max-height: 90vh; border-radius: 8px; object-fit: contain; }
-  .lightbox-close {
-    position: absolute; top: 20px; right: 28px;
-    color: rgba(255,255,255,0.7); font-size: 36px;
-    cursor: pointer; z-index: 1; line-height: 1;
-    transition: color 0.2s;
-  }
-  .lightbox-close:hover { color: white; }
+ /* ── LIGHTBOX ── */
+ .lightbox {
+ display: none; position: fixed; inset: 0; z-index: 9999;
+ background: rgba(0,0,0,0.92); align-items: center; justify-content: center;
+ cursor: pointer;
+ }
+ .lightbox.active { display: flex; }
+ .lightbox img { max-width: 92vw; max-height: 90vh; border-radius: 8px; object-fit: contain; }
+ .lightbox-close {
+ position: absolute; top: 20px; right: 28px;
+ color: rgba(255,255,255,0.7); font-size: 36px;
+ cursor: pointer; z-index: 1; line-height: 1;
+ transition: color 0.2s;
+ }
+ .lightbox-close:hover { color: white; }
 
-  /* ── TIMELINE ── */
-  .timeline { position: relative; padding-left: 32px; }
-  .timeline::before { content: ''; position: absolute; left: 9px; top: 0; bottom: 0; width: 2px; background: linear-gradient(to bottom, var(--red-mid), transparent); }
-  .tl-item {
-    position: relative; margin-bottom: 16px; background: var(--white);
-    border: 1px solid var(--border); border-radius: 12px;
-    padding: 16px 18px; transition: box-shadow 0.2s;
-    display: flex; gap: 16px; align-items: center;
-  }
-  .tl-item:hover { box-shadow: var(--shadow-md); }
-  .tl-item::before { content: ''; position: absolute; left: -26px; top: 50%; transform: translateY(-50%); width: 11px; height: 11px; background: var(--red-main); border-radius: 50%; border: 2px solid white; box-shadow: 0 0 0 2px var(--red-main); }
-  .tl-content { flex: 1; min-width: 0; }
-  .tl-month { font-size: 11px; font-weight: 700; color: var(--red-main); letter-spacing: 2px; margin-bottom: 2px; }
-  .tl-event { font-size: 14px; font-weight: 700; margin-bottom: 2px; }
-  .tl-en { font-size: 11px; color: var(--text-sub); }
-  .tl-thumb {
-    width: 100px; height: 68px;
-    object-fit: cover; border-radius: 8px;
-    flex-shrink: 0; cursor: pointer;
-    border: 1px solid var(--border-light);
-    transition: transform 0.2s;
-  }
-  .tl-thumb:hover { transform: scale(1.05); box-shadow: var(--shadow-md); }
-  @media (max-width: 560px) {
-    .tl-item { flex-direction: column; align-items: flex-start; }
-    .tl-thumb { width: 100%; height: 160px; }
-  }
+ /* ── TIMELINE ── */
+ .timeline { position: relative; padding-left: 32px; }
+ .timeline::before { content: ''; position: absolute; left: 9px; top: 0; bottom: 0; width: 2px; background: linear-gradient(to bottom, var(--red-mid), transparent); }
+ .tl-item {
+ position: relative; margin-bottom: 16px; background: var(--white);
+ border: 1px solid var(--border); border-radius: 12px;
+ padding: 16px 18px; transition: box-shadow 0.2s;
+ display: flex; gap: 16px; align-items: center;
+ }
+ .tl-item:hover { box-shadow: var(--shadow-md); }
+ .tl-item::before { content: ''; position: absolute; left: -26px; top: 50%; transform: translateY(-50%); width: 11px; height: 11px; background: var(--red-main); border-radius: 50%; border: 2px solid white; box-shadow: 0 0 0 2px var(--red-main); }
+ .tl-content { flex: 1; min-width: 0; }
+ .tl-month { font-size: 11px; font-weight: 700; color: var(--red-main); letter-spacing: 2px; margin-bottom: 2px; }
+ .tl-event { font-size: 14px; font-weight: 700; margin-bottom: 2px; }
+ .tl-en { font-size: 11px; color: var(--text-sub); }
+ .tl-thumb {
+ width: 100px; height: 68px;
+ object-fit: cover; border-radius: 8px;
+ flex-shrink: 0; cursor: pointer;
+ border: 1px solid var(--border-light);
+ transition: transform 0.2s;
+ }
+ .tl-thumb:hover { transform: scale(1.05); box-shadow: var(--shadow-md); }
+ @media (max-width: 560px) {
+ .tl-item { flex-direction: column; align-items: flex-start; }
+ .tl-thumb { width: 100%; height: 160px; }
+ }
 
-  /* ── CLUBS ── */
-  .clubs-section { background: var(--bg-warm); border-radius: var(--radius-lg); padding: 28px; border: 1px solid var(--border); margin-top: 28px; }
-  .clubs-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-top: 18px; }
-  .clubs-col h4 { font-size: 15px; font-weight: 800; margin-bottom: 10px; display: flex; align-items: center; gap: 6px; }
-  .clubs-col ul { list-style: none; font-size: 13px; color: var(--text-sub); line-height: 2; }
-  .clubs-col ul li::before { content: '· '; color: var(--red-main); font-weight: 900; }
-  .clubs-stats { display: flex; gap: 24px; flex-wrap: wrap; margin-top: 20px; padding-top: 18px; border-top: 1px solid var(--border); }
-  .club-stat { text-align: center; }
-  .club-stat-n { font-size: 26px; font-weight: 900; color: var(--red-main); }
-  .club-stat-l { font-size: 11px; color: var(--text-sub); }
+ /* ── CLUBS ── */
+ .clubs-section { background: var(--bg-warm); border-radius: var(--radius-lg); padding: 28px; border: 1px solid var(--border); margin-top: 28px; }
+ .clubs-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-top: 18px; }
+ .clubs-col h4 { font-size: 15px; font-weight: 800; margin-bottom: 10px; display: flex; align-items: center; gap: 6px; }
+ .clubs-col ul { list-style: none; font-size: 13px; color: var(--text-sub); line-height: 2; }
+ .clubs-col ul li::before { content: '· '; color: var(--red-main); font-weight: 900; }
+ .clubs-stats { display: flex; gap: 24px; flex-wrap: wrap; margin-top: 20px; padding-top: 18px; border-top: 1px solid var(--border); }
+ .club-stat { text-align: center; }
+ .club-stat-n { font-size: 26px; font-weight: 900; color: var(--red-main); }
+ .club-stat-l { font-size: 11px; color: var(--text-sub); }
 
-  /* ── EXEC ── */
-  .exec-header { display: flex; align-items: center; gap: 10px; margin-bottom: 20px; margin-top: 8px; }
-  .exec-header h3 { font-size: 18px; font-weight: 800; }
-  .exec-tag { display: inline-block; font-size: 11px; font-weight: 700; padding: 4px 16px; border-radius: 20px; letter-spacing: 1px; }
-  .et-blue { background: var(--blue-accent); color: white; }
-  .et-blue2 { background: var(--blue-light); color: var(--blue-accent); }
+ /* ── EXEC ── */
+ .exec-header { display: flex; align-items: center; gap: 10px; margin-bottom: 20px; margin-top: 8px; }
+ .exec-header h3 { font-size: 18px; font-weight: 800; }
+ .exec-tag { display: inline-block; font-size: 11px; font-weight: 700; padding: 4px 16px; border-radius: 20px; letter-spacing: 1px; }
+ .et-blue { background: var(--blue-accent); color: white; }
+ .et-blue2 { background: var(--blue-light); color: var(--blue-accent); }
 
-  /* ── ART TROUPE ── */
-  .troupe-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 14px; margin-top: 20px; }
-  .troupe-card {
-    background: var(--white); border: 1.5px solid var(--border); border-radius: var(--radius-md);
-    padding: 20px 18px 18px; transition: all 0.25s;
-  }
-  .troupe-card:hover { box-shadow: 0 4px 18px rgba(91,45,142,0.10); border-color: var(--purple-accent); transform: translateY(-2px); }
-  .troupe-emoji { font-size: 30px; margin-bottom: 8px; display: block; }
-  .troupe-name { font-size: 16px; font-weight: 800; margin-bottom: 6px; color: var(--purple-accent); letter-spacing: 1px; }
-  .troupe-desc { font-size: 13px; color: var(--text-sub); line-height: 1.75; }
-  .troupe-card .photo-strip img { width: 140px; height: 95px; }
+ /* ── ART TROUPE ── */
+ .troupe-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 14px; margin-top: 20px; }
+ .troupe-card {
+ background: var(--white); border: 1.5px solid var(--border); border-radius: var(--radius-md);
+ padding: 20px 18px 18px; transition: all 0.25s;
+ }
+ .troupe-card:hover { box-shadow: 0 4px 18px rgba(91,45,142,0.10); border-color: var(--purple-accent); transform: translateY(-2px); }
+ .troupe-emoji { font-size: 30px; margin-bottom: 8px; display: block; }
+ .troupe-name { font-size: 16px; font-weight: 800; margin-bottom: 6px; color: var(--purple-accent); letter-spacing: 1px; }
+ .troupe-desc { font-size: 13px; color: var(--text-sub); line-height: 1.75; text-align: justify; }
+ .troupe-card .photo-strip img { width: 140px; height: 95px; }
 
-  .art-dept-row { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 14px; margin-top: 20px; }
-  .art-dept-card { background: var(--purple-light); border-radius: var(--radius-md); padding: 18px 20px; border: 1px solid #E8DFF5; }
-  .art-dept-card .adc-num { font-size: 10px; font-weight: 700; letter-spacing: 2px; color: var(--purple-accent); margin-bottom: 2px; }
-  .art-dept-card .adc-name { font-size: 16px; font-weight: 800; color: var(--purple-accent); margin-bottom: 6px; letter-spacing: 1px; }
-  .art-dept-card .adc-desc { font-size: 13px; color: var(--text-sub); line-height: 1.75; }
+ .art-dept-row { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 14px; margin-top: 20px; }
+ .art-dept-card { background: var(--purple-light); border-radius: var(--radius-md); padding: 18px 20px; border: 1px solid #E8DFF5; }
+ .art-dept-card .adc-num { font-size: 10px; font-weight: 700; letter-spacing: 2px; color: var(--purple-accent); margin-bottom: 2px; }
+ .art-dept-card .adc-name { font-size: 16px; font-weight: 800; color: var(--purple-accent); margin-bottom: 6px; letter-spacing: 1px; }
+ .art-dept-card .adc-desc { font-size: 13px; color: var(--text-sub); line-height: 1.75; text-align: justify; }
 
-  .special-project {
-    background: linear-gradient(135deg, #FFF8E6 0%, #FFFDF5 100%);
-    border: 2px solid var(--gold); border-radius: var(--radius-lg);
-    padding: 24px 28px; margin-top: 24px; text-align: center;
-  }
-  .special-project h4 { font-size: 18px; font-weight: 800; color: #7A5200; margin-bottom: 8px; letter-spacing: 2px; }
-  .special-project p { font-size: 14px; color: var(--text-sub); line-height: 1.85; }
+ .special-project {
+ background: linear-gradient(135deg, #FFF8E6 0%, #FFFDF5 100%);
+ border: 2px solid var(--gold); border-radius: var(--radius-lg);
+ padding: 24px 28px; margin-top: 24px; text-align: center;
+ }
+ .special-project h4 { font-size: 18px; font-weight: 800; color: #7A5200; margin-bottom: 8px; letter-spacing: 2px; }
+ .special-project p { font-size: 14px; color: var(--text-sub); line-height: 1.85; }
 
-  /* ── QR ROWS ── */
-  .qr-row { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; margin-bottom: 28px; }
-  .qr-row-card {
-    background: var(--white); border: 1.5px solid var(--border); border-radius: var(--radius-md);
-    padding: 16px 14px; display: flex; flex-direction: column; align-items: center; gap: 8px;
-    min-width: 144px; box-shadow: var(--shadow-sm); transition: all 0.2s;
-  }
-  .qr-row-card:hover { box-shadow: var(--shadow-md); transform: translateY(-2px); }
-  .qr-row-card.blue-top { border-top: 3px solid var(--blue-accent); }
-  .qr-row-card.purple-top { border-top: 3px solid var(--purple-accent); }
-  .qr-row-label { font-size: 13px; font-weight: 800; text-align: center; line-height: 1.3; }
-  .qr-row-sub { font-size: 11px; color: var(--text-sub); text-align: center; }
+ /* ── QR ROWS ── */
+ .qr-row { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; margin-bottom: 28px; }
+ .qr-row-card {
+ background: var(--white); border: 1.5px solid var(--border); border-radius: var(--radius-md);
+ padding: 16px 14px; display: flex; flex-direction: column; align-items: center; gap: 8px;
+ min-width: 144px; box-shadow: var(--shadow-sm); transition: all 0.2s;
+ }
+ .qr-row-card:hover { box-shadow: var(--shadow-md); transform: translateY(-2px); }
+ .qr-row-card.blue-top { border-top: 3px solid var(--blue-accent); }
+ .qr-row-card.purple-top { border-top: 3px solid var(--purple-accent); }
+ .qr-row-label { font-size: 13px; font-weight: 800; text-align: center; line-height: 1.3; }
+ .qr-row-sub { font-size: 11px; color: var(--text-sub); text-align: center; }
 
-  /* ── FOOTER ── */
-  .page-footer {
-    background: linear-gradient(165deg, #5C0E0E 0%, #7A1212 100%);
-    color: rgba(255,255,255,0.65); text-align: center; padding: 48px 24px;
-    font-size: 13px; letter-spacing: 1px;
-  }
-  .page-footer strong { color: white; font-size: 16px; display: block; margin-bottom: 12px; letter-spacing: 3px; }
+ /* ── FOOTER ── */
+ .page-footer {
+ background: linear-gradient(165deg, #5C0E0E 0%, #7A1212 100%);
+ color: rgba(255,255,255,0.65); text-align: center; padding: 48px 24px;
+ font-size: 13px; letter-spacing: 1px;
+ }
+ .page-footer strong { color: white; font-size: 16px; display: block; margin-bottom: 12px; letter-spacing: 3px; }
 
-  /* ── RESPONSIVE ── */
-  @media (max-width: 768px) {
-    .hero-watermark { font-size: 100px; }
-    .qr-strip { flex-direction: column; align-items: center; }
-    .dept-grid { grid-template-columns: 1fr; }
-    .troupe-grid { grid-template-columns: repeat(2, 1fr); }
-    .clubs-grid { grid-template-columns: 1fr; }
-    .art-dept-row { grid-template-columns: 1fr; }
-    .nav-tab { padding: 12px 12px; font-size: 12px; letter-spacing: 0; }
-    .nav-tab .nav-num { display: none; }
-    .org-stats { gap: 16px; padding: 10px 16px; }
-    .section-inner { padding: 32px 16px 56px; }
-    .qr-row { flex-direction: column; align-items: center; }
-  }
-  @media (max-width: 400px) { .troupe-grid { grid-template-columns: 1fr; } }
+ /* ── RESPONSIVE ── */
+ @media (max-width: 768px) {
+ .hero-watermark { font-size: 100px; }
+ .qr-strip { flex-direction: column; align-items: center; }
+ .dept-grid { grid-template-columns: 1fr; }
+ .troupe-grid { grid-template-columns: repeat(2, 1fr); }
+ .clubs-grid { grid-template-columns: 1fr; }
+ .art-dept-row { grid-template-columns: 1fr; }
+ .nav-tab { padding: 12px 12px; font-size: 12px; letter-spacing: 0; }
+ .nav-tab .nav-num { display: none; }
+ .org-stats { gap: 16px; padding: 10px 16px; }
+ .section-inner { padding: 32px 16px 56px; }
+ .qr-row { flex-direction: column; align-items: center; }
+ }
+ @media (max-width: 400px) { .troupe-grid { grid-template-columns: 1fr; } }
 </style>
 </head>
 <body>
 
 <!-- ═══════ HERO ═══════ -->
 <header class="hero">
-  <div class="hero-watermark">青春南燕</div>
-  <div class="hero-badge"><span class="dot"></span>北京大学深圳研究生院 · 共青团系统<span class="dot"></span></div>
-  <h1>青春<em>南燕</em></h1>
-  <p class="hero-sub">探索之旅 · 逐光而行</p>
-  <p class="hero-tagline">深研院共青团系统 2026–2027 学年招新</p>
+ <div class="hero-watermark">青春南燕</div>
+ <div class="hero-badge"><span class="dot"></span>北京大学深圳研究生院 · 共青团系统<span class="dot"></span></div>
+ <h1>青春<em>南燕</em></h1>
+ <p class="hero-sub">探索之旅 · 逐光而行</p>
+ <p class="hero-tagline">深研院共青团系统 2026–2027 学年招新</p>
 
-  <div class="qr-strip">
-    <!-- 青春南燕 -->
-    <div class="qr-card">
-      <span class="qr-tag tag-red">团委公众号</span>
-      <div class="qr-img-wrap"><img src="招新二维码/青春南燕.png" alt="青春南燕"></div>
-      <div class="qr-label">青春南燕</div>
-      <div class="qr-sub">团委公众号 · 活动资讯</div>
-    </div>
+ <div class="qr-strip">
+ <!-- 青春南燕 -->
+ <div class="qr-card">
+ <span class="qr-tag tag-red">团委公众号</span>
+ <div class="qr-img-wrap"><img src="招新二维码/青春南燕.png" alt="青春南燕"></div>
+ <div class="qr-label">青春南燕</div>
+ <div class="qr-sub">团委公众号 · 活动资讯</div>
+ </div>
 
-    <!-- 团委招新群 -->
-    <div class="qr-card primary">
-      <span class="qr-tag tag-gold"><span class="live">招新群</span></span>
-      <div class="qr-img-wrap big"><img src="招新二维码/团委招新群.png" alt="团委招新群"></div>
-      <div class="qr-label" style="color:var(--red-main);font-size:15px;">📌 深研院团委</div>
-      <div class="qr-sub">扫码加入团委招新群</div>
-    </div>
+ <!-- 团委招新群 -->
+ <div class="qr-card primary">
+ <span class="qr-tag tag-gold"><span class="live">招新群</span></span>
+ <div class="qr-img-wrap big"><img src="招新二维码/团委招新群.png" alt="团委招新群"></div>
+ <div class="qr-label" style="color:var(--red-main);font-size:15px;">📌 深研院团委</div>
+ <div class="qr-sub">扫码加入团委招新群</div>
+ </div>
 
-    <!-- 研会招新1群 -->
-    <div class="qr-card" style="border-top-color:var(--blue-accent);">
-      <span class="qr-tag tag-blue">研会招新群</span>
-      <div class="qr-img-wrap"><img src="招新二维码/研会招新1群.png" alt="研究生会"></div>
-      <div class="qr-label" style="color:var(--blue-accent)">研究生会</div>
-      <div class="qr-sub">扫码加入研会招新群</div>
-    </div>
+ <!-- 南燕研究生会 -->
+ <div class="qr-card" style="border-top-color:var(--blue-accent);">
+ <span class="qr-tag tag-blue">研会公众号</span>
+ <div class="qr-img-wrap"><img src="招新二维码/南燕研究生会.png" alt="南燕研究生会"></div>
+ <div class="qr-label" style="color:var(--blue-accent)">南燕研究生会</div>
+ <div class="qr-sub">研会公众号 · 活动资讯</div>
+ </div>
 
-    <!-- 艺术团招新群 -->
-    <div class="qr-card" style="border-top-color:var(--purple-accent);">
-      <span class="qr-tag tag-purple">艺术团招新群</span>
-      <div class="qr-img-wrap"><img src="招新二维码/艺术团招新大群.png" alt="艺术团"></div>
-      <div class="qr-label" style="color:var(--purple-accent)">艺术团</div>
-      <div class="qr-sub">扫码加入艺术团招新群</div>
-    </div>
-  </div>
+ <!-- 研会招新1群 -->
+ <div class="qr-card" style="border-top-color:var(--blue-accent);">
+ <span class="qr-tag tag-blue">研会招新群</span>
+ <div class="qr-img-wrap"><img src="招新二维码/研会招新1群.png" alt="研究生会"></div>
+ <div class="qr-label" style="color:var(--blue-accent)">研究生会</div>
+ <div class="qr-sub">扫码加入研会招新群</div>
+ </div>
+
+ <!-- 艺术团招新群 -->
+ <div class="qr-card" style="border-top-color:var(--purple-accent);">
+ <span class="qr-tag tag-purple">艺术团招新群</span>
+ <div class="qr-img-wrap"><img src="招新二维码/艺术团招新大群.png" alt="艺术团"></div>
+ <div class="qr-label" style="color:var(--purple-accent)">艺术团</div>
+ <div class="qr-sub">扫码加入艺术团招新群</div>
+ </div>
+ </div>
 </header>
 
 <!-- ═══════ 前言 ═══════ -->
 <section class="foreword-wrap">
-  <div class="foreword">
-    <div class="foreword-icon">📬</div>
-    <h2>青春南燕探索之旅</h2>
-    <p class="greeting">亲爱的 2026 级南燕萌新们：</p>
-    <p>大家好！欢迎来到北京大学深圳研究生院这个温暖又真挚的大家庭，开启属于自己理想的研究生新生活！</p>
-    <p>学习科研之余，南国燕园有哪些校园文化氛围营造的主力、汇聚青年之声的群体、集思广益的兴趣团队呢？此时此刻，让我们共同来解锁南燕学生活动之旅，探索兴趣奥秘吧！</p>
-    <p>在这里，深研院团委携手研究生会、学生社团以及基层团组织积极开展各项校园文化活动。各组织围绕学术交流、文体活动、思想建设、职业发展、权益维护、公益实践等方面，开展了诸如<strong>镜湖之夜、南燕体育文化节、青年与未来交流沙龙、青春音乐夜跑嘉年华</strong>和<strong>"笃行计划"暑期社会实践</strong>等一系列特色品牌活动。</p>
-    <p>下面让我们走进它们，去感受各具特色的活力与创造力，体验精彩时刻！</p>
-    <p class="signature">—— 共青团北京大学深圳研究生院委员会</p>
-  </div>
+ <div class="foreword">
+ <div class="foreword-icon">📬</div>
+ <h2>青春南燕探索之旅</h2>
+ <p class="greeting">亲爱的 2026 级南燕萌新们：</p>
+ <p>大家好！欢迎来到北京大学深圳研究生院这个温暖又真挚的大家庭，开启属于自己理想的研究生新生活！</p>
+ <p>学习科研之余，南国燕园有哪些校园文化氛围营造的主力、汇聚青年之声的群体、集思广益的兴趣团队呢？此时此刻，让我们共同来解锁南燕学生活动之旅，探索兴趣奥秘吧！</p>
+ <p>在这里，深研院团委携手研究生会、学生社团以及基层团组织积极开展各项校园文化活动。各组织围绕学术交流、文体活动、思想建设、职业发展、权益维护、公益实践等方面，开展了诸如<strong>镜湖之夜、南燕体育文化节、青年与未来交流沙龙、青春音乐夜跑嘉年华</strong>和<strong>"笃行计划"暑期社会实践</strong>等一系列特色品牌活动。</p>
+ <p>下面让我们走进它们，去感受各具特色的活力与创造力，体验精彩时刻！</p>
+ <p class="signature">—— 共青团北京大学深圳研究生院委员会</p>
+ </div>
 </section>
 
 <!-- ═══════ NAV ═══════ -->
 <nav class="nav-bar" id="mainNav">
-  <button class="nav-tab active" onclick="showTab('tuanwei',this)"><span class="nav-num">01</span>深研院团委</button>
-  <button class="nav-tab t-blue" onclick="showTab('yanjiusheng',this)"><span class="nav-num">02</span>研究生会</button>
-  <button class="nav-tab t-purple" onclick="showTab('yishutuan',this)"><span class="nav-num">03</span>学生艺术团</button>
+ <button class="nav-tab active" onclick="showTab('tuanwei',this)"><span class="nav-num">01</span>深研院团委</button>
+ <button class="nav-tab t-blue" onclick="showTab('yanjiusheng',this)"><span class="nav-num">02</span>研究生会</button>
+ <button class="nav-tab t-purple" onclick="showTab('yishutuan',this)"><span class="nav-num">03</span>学生艺术团</button>
 </nav>
 
 <!-- ═══════ 01 · 团委 ═══════ -->
 <section id="tuanwei" class="section active">
 <div class="section-inner">
 
-  <div class="section-hero">
-    <div class="section-title-cn s-red">深研院团委</div>
-    <div class="section-slogan">薪火相传 · 先进青年群团组织</div>
-    <p class="section-desc">
-      共青团北京大学深圳研究生院委员会，是在北京大学深圳研究生院党委领导下的学院先进青年的群团组织，是开展深研院共青团工作的主责部门。秉承"爱国、进步、民主、科学"的优良传统，弘扬"勤奋、严谨、求实、创新"的校风学风，积极配合学院育人中心工作，有力助推青年成长成才。团委负责指导<strong>研究生会、学生社团、基层团组织</strong>开展各项校园文化活动，组织下设<strong>9个职能部门</strong>。
-    </p>
-  </div>
+ <div class="section-hero">
+ <div class="section-title-cn s-red">北京大学深圳研究生院团委</div>
+ <div class="section-slogan">薪火相传 · 先进青年群团组织</div>
+ <p class="section-desc">
+ 共青团北京大学深圳研究生院委员会，是在北京大学深圳研究生院党委领导下的学院先进青年的群团组织，是开展深研院共青团工作的主责部门。秉承"爱国、进步、民主、科学"的优良传统，弘扬"勤奋、严谨、求实、创新"的校风学风，积极配合学院育人中心工作，有力助推青年成长成才。团委负责指导<strong>研究生会、学生社团、基层团组织</strong>开展各项校园文化活动，组织下设<strong>9个职能部门</strong>。
+ </p>
+ </div>
 
-  <!-- 组织架构 -->
-  <div class="org-chart">
-    <div class="org-chart-label">组 织 架 构</div>
-    <div class="org-row"><div class="org-box">深研院党委</div></div>
-    <div class="org-connector"></div>
-    <div class="org-row"><div class="org-box">深研院团委</div></div>
-    <div class="org-connector"></div>
-    <div class="org-row" style="gap:6px;">
-      <div class="org-box light">办公室</div><div class="org-box light">组织部</div>
-      <div class="org-box light">宣传部</div><div class="org-box light">文体部</div>
-      <div class="org-box light">社团部</div><div class="org-box light">学术科创部</div>
-      <div class="org-box light">社会实践部</div><div class="org-box light">志愿者部</div>
-      <div class="org-box light">青年研究中心</div>
-    </div>
-    <div class="org-stats">
-      <div><div class="org-stat-num">67</div><div class="org-stat-lbl">个学生团支部</div></div>
-      <div style="width:1px;background:var(--border)"></div>
-      <div><div class="org-stat-num">2616</div><div class="org-stat-lbl">名团员</div></div>
-      <div style="width:1px;background:var(--border)"></div>
-      <div><div class="org-stat-num">63</div><div class="org-stat-lbl">个学生社团</div></div>
-    </div>
-  </div>
+ <!-- 组织架构 -->
+ <div class="org-chart">
+ <div class="org-chart-label">组 织 架 构</div>
+ <div class="org-row"><div class="org-box">深研院党委</div></div>
+ <div class="org-connector"></div>
+ <div class="org-row"><div class="org-box">深研院团委</div></div>
+ <div class="org-connector"></div>
+ <div class="org-row" style="gap:6px;">
+ <div class="org-box light">办公室</div><div class="org-box light">组织部</div>
+ <div class="org-box light">宣传部</div><div class="org-box light">文体部</div>
+ <div class="org-box light">社团部</div><div class="org-box light">学术科创部</div>
+ <div class="org-box light">社会实践部</div><div class="org-box light">志愿者部</div>
+ <div class="org-box light">青年研究中心</div>
+ </div>
+ <div class="org-stats">
+ <div><div class="org-stat-num">67</div><div class="org-stat-lbl">个学生团支部</div></div>
+ <div style="width:1px;background:var(--border)"></div>
+ <div><div class="org-stat-num">2616</div><div class="org-stat-lbl">名团员</div></div>
+ <div style="width:1px;background:var(--border)"></div>
+ <div><div class="org-stat-num">63</div><div class="org-stat-lbl">个学生社团</div></div>
+ </div>
+ </div>
 
-  <div class="sec-divider"><span>九 大 职 能 部 门</span></div>
+ <div class="sec-divider"><span>九 大 职 能 部 门</span></div>
 
-  <div class="dept-grid">
+ <div class="dept-grid">
 
-    <!-- 01 办公室 -->
-    <div class="dept-card dc-red">
-      <div class="dept-num">01 · OFFICE</div>
-      <div class="dept-name">办公室</div>
-      <div class="dept-body">负责协调团委各职能部门、各学生组织之间的工作，帮助、督促各部门高效落实工作。负责团委日常活动的经费预算及报销，处理团委机关公文，起草院团委工作总结、工作简报等重要文件；管理院团委各种物资，并定期组织开展团系统例会、团委例会、团队建设活动；负责统筹团委工作总结、换届选拔、骨干招募和接待等工作。</div>
-      <div class="dept-highlights"><div class="hl-label">▸ 品牌活动</div><div class="hl-items">"青春南燕 团聚你我"团委迎新见面会暨破冰活动 · 共青团系统年度总结大会 · 学生干部换届竞选暨总结表彰大会</div></div>
-      <div class="photo-strip">
-        <img src="团委/image5.png" alt="年度总结大会" onerror="this.style.display='none'" loading="lazy">
-        <img src="团委/image6.jpeg" alt="团委会" onerror="this.style.display='none'" loading="lazy">
-      </div>
-    </div>
+ <!-- 01 办公室 -->
+ <div class="dept-card dc-red">
+ <div class="dept-num">01 · OFFICE</div>
+ <div class="dept-name">办公室</div>
+ <div class="dept-body">负责协调团委各职能部门、各学生组织之间的工作，帮助、督促各部门高效落实工作。负责团委日常活动的经费预算及报销，处理团委机关公文，起草院团委工作总结、工作简报等重要文件；管理院团委各种物资，并定期组织开展团系统例会、团委例会、团队建设活动；负责统筹团委工作总结、换届选拔、骨干招募和接待等工作。</div>
+ <div class="dept-highlights"><div class="hl-label">▸ 品牌活动</div><div class="hl-items">"青春南燕 团聚你我"团委迎新见面会暨破冰活动 · 共青团系统年度总结大会 · 学生干部换届竞选暨总结表彰大会</div></div>
+ <div class="photo-strip">
+ <img src="团委/image5.png" alt="年度总结大会" onerror="this.style.display='none'" loading="lazy">
+ <img src="团委/image6.jpeg" alt="团委会" onerror="this.style.display='none'" loading="lazy">
+ </div>
+ </div>
 
-    <!-- 02 组织部 -->
-    <div class="dept-card dc-red">
-      <div class="dept-num">02 · ORGANIZATION</div>
-      <div class="dept-name">组织部</div>
-      <div class="dept-body">负责深研院基础团务工作，统筹管理各学院团支部，开展团组织推优入党、主题团日活动、五四团支部风采展、共青团系统评优表彰、团费收缴等基础团务工作；同时负责团校工作，定期开展学生骨干培训；展开时政热点、理论精神集中学习和青年大学习等理论实践工作，巩固基层团组织建设。</div>
-      <div class="dept-highlights"><div class="hl-label">▸ 品牌活动</div><div class="hl-items">春季/秋季学期团支部工作交流会 · 团支部"对标定级"暨团支部书记述职评议大会 · 高级团校暨"青云计划"骨干培训班</div></div>
-      <div class="photo-strip">
-        <img src="团委/image8.jpeg" alt="团组织活动" onerror="this.style.display='none'" loading="lazy">
-        <img src="团委/image9.jpeg" alt="团组织活动" onerror="this.style.display='none'" loading="lazy">
-        <img src="团委/image10.png" alt="团组织活动" onerror="this.style.display='none'" loading="lazy">
-      </div>
-    </div>
+ <!-- 02 组织部 -->
+ <div class="dept-card dc-red">
+ <div class="dept-num">02 · ORGANIZATION</div>
+ <div class="dept-name">组织部</div>
+ <div class="dept-body">负责深研院基础团务工作，统筹管理各学院团支部，开展团组织推优入党、主题团日活动、五四团支部风采展、共青团系统评优表彰、团费收缴等基础团务工作；同时负责团校工作，定期开展学生骨干培训；展开时政热点、理论精神集中学习和青年大学习等理论实践工作，巩固基层团组织建设。</div>
+ <div class="dept-highlights"><div class="hl-label">▸ 品牌活动</div><div class="hl-items">春季/秋季学期团支部工作交流会 · 团支部"对标定级"暨团支部书记述职评议大会 · 高级团校暨"青云计划"骨干培训班</div></div>
+ <div class="photo-strip">
+ <img src="团委/image8.jpeg" alt="团组织活动" onerror="this.style.display='none'" loading="lazy">
+ <img src="团委/image9.jpeg" alt="团组织活动" onerror="this.style.display='none'" loading="lazy">
+ <img src="团委/image10.png" alt="团组织活动" onerror="this.style.display='none'" loading="lazy">
+ </div>
+ </div>
 
-    <!-- 03 宣传部 -->
-    <div class="dept-card dc-red">
-      <div class="dept-num">03 · PUBLICITY</div>
-      <div class="dept-name">宣传部</div>
-      <div class="dept-body">负责深研院青年宣传工作，以特色宣传活动服务全院青年思想引领工作。负责团委大型活动设计宣传推广；负责"青春南燕"团委公众号、视频号宣传阵地建设；围绕时政热点、特殊时间节点策划特色宣传活动；同时开展校园文化设计宣传推广，涵盖海报设计、活动摄影、视频制作等。</div>
-      <div class="dept-highlights"><div class="hl-label">▸ 品牌作品</div><div class="hl-items">社团游园会展板 · 北大青年讲堂主视觉海报 · 校运会宣传卷轴 · 迎新晚会幕后纪实视频 · 走进中小学系列活动海报</div></div>
-      <div class="photo-strip">
-        <img src="团委/image14.png" alt="宣传作品" onerror="this.style.display='none'" loading="lazy">
-        <img src="团委/image15.jpeg" alt="宣传作品" onerror="this.style.display='none'" loading="lazy">
-        <img src="团委/image16.jpeg" alt="宣传作品" onerror="this.style.display='none'" loading="lazy">
-        <img src="团委/image17.png" alt="宣传作品" onerror="this.style.display='none'" loading="lazy">
-      </div>
-    </div>
+ <!-- 03 宣传部 -->
+ <div class="dept-card dc-red">
+ <div class="dept-num">03 · PUBLICITY</div>
+ <div class="dept-name">宣传部</div>
+ <div class="dept-body">负责深研院青年宣传工作，以特色宣传活动服务全院青年思想引领工作。负责团委大型活动设计宣传推广；负责"青春南燕"团委公众号、视频号宣传阵地建设；围绕时政热点、特殊时间节点策划特色宣传活动；同时开展校园文化设计宣传推广，涵盖海报设计、活动摄影、视频制作等。</div>
+ <div class="dept-highlights"><div class="hl-label">▸ 品牌作品</div><div class="hl-items">社团游园会展板 · 北大青年讲堂主视觉海报 · 校运会宣传卷轴 · 迎新晚会幕后纪实视频 · 走进中小学系列活动海报</div></div>
+ <div class="photo-strip">
+ <img src="团委/image14.png" alt="宣传作品" onerror="this.style.display='none'" loading="lazy">
+ <img src="团委/image15.jpeg" alt="宣传作品" onerror="this.style.display='none'" loading="lazy">
+ <img src="团委/image16.jpeg" alt="宣传作品" onerror="this.style.display='none'" loading="lazy">
+ <img src="团委/image17.png" alt="宣传作品" onerror="this.style.display='none'" loading="lazy">
+ </div>
+ </div>
 
-    <!-- 04 文体部 -->
-    <div class="dept-card dc-red">
-      <div class="dept-num">04 · CULTURE &amp; SPORTS</div>
-      <div class="dept-name">文体部</div>
-      <div class="dept-body">以丰富学生校园文体活动、加强学院美育工作为核心，负责组织校本部运动会开幕式方阵表演、北大深圳青年讲堂等相关活动，协助开学典礼、毕业典礼相关工作等。品牌讲座如阎步克教授"品位与职位：中国古代官僚等级的结构与意义"、钱乘旦教授《风起云飞扬》解读等。</div>
-      <div class="dept-highlights"><div class="hl-label">▸ 品牌活动</div><div class="hl-items">北大深圳青年讲堂系列讲座 · 北京大学春季运动会开幕式方阵 · 开学典礼/毕业典礼协助 · 青年知识竞赛 · 一二·九比赛</div></div>
-      <div class="photo-strip">
-        <img src="团委/image16.jpeg" alt="讲座海报" onerror="this.style.display='none'" loading="lazy">
-        <img src="团委/image22.jpeg" alt="运动会" onerror="this.style.display='none'" loading="lazy">
-      </div>
-    </div>
+ <!-- 04 文体部 -->
+ <div class="dept-card dc-red">
+ <div class="dept-num">04 · CULTURE &amp; SPORTS</div>
+ <div class="dept-name">文体部</div>
+ <div class="dept-body">以丰富学生校园文体活动、加强学院美育工作为核心，负责组织校本部运动会开幕式方阵表演、北大深圳青年讲堂等相关活动，协助开学典礼、毕业典礼相关工作等。品牌讲座如阎步克教授"品位与职位：中国古代官僚等级的结构与意义"、钱乘旦教授《风起云飞扬》解读等。</div>
+ <div class="dept-highlights"><div class="hl-label">▸ 品牌活动</div><div class="hl-items">北大深圳青年讲堂系列讲座 · 北京大学春季运动会开幕式方阵 · 开学典礼/毕业典礼协助 · 青年知识竞赛 · 一二·九比赛</div></div>
+ <div class="photo-strip">
+ <img src="团委/image16.jpeg" alt="讲座海报" onerror="this.style.display='none'" loading="lazy">
+ <img src="团委/image22.jpeg" alt="运动会" onerror="this.style.display='none'" loading="lazy">
+ </div>
+ </div>
 
-    <!-- 05 社团部 -->
-    <div class="dept-card dc-red">
-      <div class="dept-num">05 · CLUBS</div>
-      <div class="dept-name">社团部</div>
-      <div class="dept-body">以引导学生社团发展、服务学生社团运作、繁荣校园文化为工作目标，负责完善学生社团各项管理制度；加强社团日常管理、社团活动监管；主办学生社团大型活动，搭建展示平台；负责学生社团评优表彰、促进社团干部交流及对外交流等工作。</div>
-      <div class="dept-highlights"><div class="hl-label">▸ 品牌活动</div><div class="hl-items">学生社团评优暨总结表彰大会 · 社团游园会 · 师生杯系列比赛</div></div>
-      <div class="photo-strip">
-        <img src="团委/image25.png" alt="社团活动" onerror="this.style.display='none'" loading="lazy">
-        <img src="团委/image26.png" alt="篮球赛" onerror="this.style.display='none'" loading="lazy">
-      </div>
-    </div>
+ <!-- 05 社团部 -->
+ <div class="dept-card dc-red">
+ <div class="dept-num">05 · CLUBS</div>
+ <div class="dept-name">社团部</div>
+ <div class="dept-body">以引导学生社团发展、服务学生社团运作、繁荣校园文化为工作目标，负责完善学生社团各项管理制度；加强社团日常管理、社团活动监管；主办学生社团大型活动，搭建展示平台；负责学生社团评优表彰、促进社团干部交流及对外交流等工作。</div>
+ <div class="dept-highlights"><div class="hl-label">▸ 品牌活动</div><div class="hl-items">学生社团评优暨总结表彰大会 · 社团游园会 · 师生杯系列比赛</div></div>
+ <div class="photo-strip">
+ <img src="团委/image25.png" alt="社团活动" onerror="this.style.display='none'" loading="lazy">
+ <img src="团委/image26.png" alt="篮球赛" onerror="this.style.display='none'" loading="lazy">
+ </div>
+ </div>
 
-    <!-- 06 学术科创部 -->
-    <div class="dept-card dc-red">
-      <div class="dept-num">06 · ACADEMIC</div>
-      <div class="dept-name">学术科创部</div>
-      <div class="dept-body">负责提升和服务学生学术科研、科技创新和创业实践活动。全面负责北大深研院"挑战杯"赛事活动；管理服务我院学生辩论队；邀请学术界、商界、创业界等多界名师名家，开展学术科创类、职业发展类等青年文化交流沙龙活动，创造朋辈交流空间。</div>
-      <div class="dept-highlights"><div class="hl-label">▸ 品牌活动</div><div class="hl-items">"挑战杯"赛事宣传暨培训 · 青年与未来交流沙龙（"从论文到产品：科研与产业之间的那道桥""AI浪潮下传统学科的生存与发展"）</div></div>
-      <div class="photo-strip">
-        <img src="团委/image20.jpeg" alt="讲座" onerror="this.style.display='none'" loading="lazy">
-        <img src="团委/image28.png" alt="交流沙龙" onerror="this.style.display='none'" loading="lazy">
-        <img src="团委/image29.jpeg" alt="AI讲座" onerror="this.style.display='none'" loading="lazy">
-      </div>
-    </div>
+ <!-- 06 学术科创部 -->
+ <div class="dept-card dc-red">
+ <div class="dept-num">06 · ACADEMIC</div>
+ <div class="dept-name">学术科创部</div>
+ <div class="dept-body">负责提升和服务学生学术科研、科技创新和创业实践活动。全面负责北大深研院"挑战杯"赛事活动；管理服务我院学生辩论队；邀请学术界、商界、创业界等多界名师名家，开展学术科创类、职业发展类等青年文化交流沙龙活动，创造朋辈交流空间。</div>
+ <div class="dept-highlights"><div class="hl-label">▸ 品牌活动</div><div class="hl-items">"挑战杯"赛事宣传暨培训 · 青年与未来交流沙龙（"从论文到产品：科研与产业之间的那道桥""AI浪潮下传统学科的生存与发展"）</div></div>
+ <div class="photo-strip">
+ <img src="团委/image20.jpeg" alt="讲座" onerror="this.style.display='none'" loading="lazy">
+ <img src="团委/image28.png" alt="交流沙龙" onerror="this.style.display='none'" loading="lazy">
+ <img src="团委/image29.jpeg" alt="AI讲座" onerror="this.style.display='none'" loading="lazy">
+ </div>
+ </div>
 
-    <!-- 07 社会实践部 -->
-    <div class="dept-card dc-red">
-      <div class="dept-num">07 · SOCIAL PRACTICE</div>
-      <div class="dept-name">社会实践部</div>
-      <div class="dept-body">负责深研院学生社会实践平台建设，搭建青年学子了解社会、服务社会的桥梁。负责组织学生"笃行计划"暑假社会实践、社区实践、校外实践（名企参观、走进中小学）和学生集体实践教育活动，引导青年在实践中增长才干。</div>
-      <div class="dept-highlights"><div class="hl-label">▸ 品牌活动</div><div class="hl-items">"笃行计划"暑期/寒假社会实践 · "走进中小学"系列活动 · 名企参观实践</div></div>
-      <div class="photo-strip">
-        <img src="团委/image15.jpeg" alt="走进中小学" onerror="this.style.display='none'" loading="lazy">
-        <img src="团委/image34.jpeg" alt="笃行计划" onerror="this.style.display='none'" loading="lazy">
-      </div>
-    </div>
+ <!-- 07 社会实践部 -->
+ <div class="dept-card dc-red">
+ <div class="dept-num">07 · SOCIAL PRACTICE</div>
+ <div class="dept-name">社会实践部</div>
+ <div class="dept-body">负责深研院学生社会实践平台建设，搭建青年学子了解社会、服务社会的桥梁。负责组织学生"笃行计划"暑假社会实践、社区实践、校外实践（名企参观、走进中小学）和学生集体实践教育活动，引导青年在实践中增长才干。</div>
+ <div class="dept-highlights"><div class="hl-label">▸ 品牌活动</div><div class="hl-items">"笃行计划"暑期/寒假社会实践 · "走进中小学"系列活动 · 名企参观实践</div></div>
+ <div class="photo-strip">
+ <img src="团委/image15.jpeg" alt="走进中小学" onerror="this.style.display='none'" loading="lazy">
+ <img src="团委/image34.jpeg" alt="笃行计划" onerror="this.style.display='none'" loading="lazy">
+ </div>
+ </div>
 
-    <!-- 08 志愿者部 -->
-    <div class="dept-card dc-red">
-      <div class="dept-num">08 · VOLUNTEERS</div>
-      <div class="dept-name">志愿者部</div>
-      <div class="dept-body">负责志愿者的组织建设和沟通联络工作，负责指导青年志愿者协会各项事务及活动组织，以服务学校和社区为宗旨，时刻践行"予人玫瑰，手有余香"的志愿者精神。参与和组织大型赛事、社区服务、特殊群体关怀等多类型志愿活动。</div>
-      <div class="dept-highlights"><div class="hl-label">▸ 品牌活动</div><div class="hl-items">第十五届全国运动会志愿服务 · "星语"品牌志愿活动 · X9赛艇联赛助威团志愿活动 · 青年志愿者协会系列活动</div></div>
-      <div class="photo-strip">
-        <img src="团委/image17.png" alt="志愿者" onerror="this.style.display='none'" loading="lazy">
-        <img src="团委/image36.jpeg" alt="十五运会志愿服务" onerror="this.style.display='none'" loading="lazy">
-        <img src="团委/image37.jpeg" alt="赛艇联赛" onerror="this.style.display='none'" loading="lazy">
-        <img src="团委/image38.jpeg" alt="青年志愿者" onerror="this.style.display='none'" loading="lazy">
-      </div>
-    </div>
+ <!-- 08 志愿者部 -->
+ <div class="dept-card dc-red">
+ <div class="dept-num">08 · VOLUNTEERS</div>
+ <div class="dept-name">志愿者部</div>
+ <div class="dept-body">负责志愿者的组织建设和沟通联络工作，负责指导青年志愿者协会各项事务及活动组织，以服务学校和社区为宗旨，时刻践行"予人玫瑰，手有余香"的志愿者精神。参与和组织大型赛事、社区服务、特殊群体关怀等多类型志愿活动。</div>
+ <div class="dept-highlights"><div class="hl-label">▸ 品牌活动</div><div class="hl-items">第十五届全国运动会志愿服务 · "星语"品牌志愿活动 · X9赛艇联赛助威团志愿活动 · 青年志愿者协会系列活动</div></div>
+ <div class="photo-strip">
+ <img src="团委/image17.png" alt="志愿者" onerror="this.style.display='none'" loading="lazy">
+ <img src="团委/image36.jpeg" alt="十五运会志愿服务" onerror="this.style.display='none'" loading="lazy">
+ <img src="团委/image37.jpeg" alt="赛艇联赛" onerror="this.style.display='none'" loading="lazy">
+ <img src="团委/image38.jpeg" alt="青年志愿者" onerror="this.style.display='none'" loading="lazy">
+ </div>
+ </div>
 
-    <!-- 09 青年研究中心 -->
-    <div class="dept-card dc-red">
-      <div class="dept-num">09 · YOUTH RESEARCH</div>
-      <div class="dept-name">青年研究中心</div>
-      <div class="dept-body">负责组织开展研究青年现状及发展趋势、加强学生思想政治引领等青年工作和共青团工作的相关主题研究，组织开展共青团和青年工作调研与实践，力求科学准确地把握新时代高校青年的思想变化和发展需求，为青年学生成长成才提供支撑与服务。</div>
-      <div class="dept-highlights"><div class="hl-label">▸ 品牌活动</div><div class="hl-items">青年研究研讨活动 · 青年研究专题讲座 · 团学工作调研</div></div>
-      <div class="photo-strip">
-        <img src="团委/image40.jpeg" alt="会议" onerror="this.style.display='none'" loading="lazy">
-        <img src="团委/image41.png" alt="青年研究讲座海报" onerror="this.style.display='none'" loading="lazy">
-      </div>
-    </div>
+ <!-- 09 青年研究中心 -->
+ <div class="dept-card dc-red">
+ <div class="dept-num">09 · YOUTH RESEARCH</div>
+ <div class="dept-name">青年研究中心</div>
+ <div class="dept-body">负责组织开展研究青年现状及发展趋势、加强学生思想政治引领等青年工作和共青团工作的相关主题研究，组织开展共青团和青年工作调研与实践，力求科学准确地把握新时代高校青年的思想变化和发展需求，为青年学生成长成才提供支撑与服务。</div>
+ <div class="dept-highlights"><div class="hl-label">▸ 品牌活动</div><div class="hl-items">青年研究研讨活动 · 青年研究专题讲座 · 团学工作调研</div></div>
+ <div class="photo-strip">
+ <img src="团委/image40.jpeg" alt="会议" onerror="this.style.display='none'" loading="lazy">
+ <img src="团委/image41.png" alt="青年研究讲座海报" onerror="this.style.display='none'" loading="lazy">
+ </div>
+ </div>
 
-  </div>
+ </div>
 
-  <!-- 品牌活动时间轴 -->
-  <div class="sec-divider"><span>2025 年 品 牌 活 动 时 间 轴</span></div>
-  <div class="timeline">
-    <div class="tl-item">
-      <div class="tl-content"><div class="tl-month">1月 January</div><div class="tl-event">「笃行计划」寒假社会实践</div><div class="tl-en">Winter Social Practice</div></div>
-      <img class="tl-thumb" src="2025品牌活动/1月 “笃行计划”寒假社会实践 Winter Social Practice.jpg" alt="笃行计划寒假社会实践" onerror="this.style.display='none'" loading="lazy">
-    </div>
-    <div class="tl-item">
-      <div class="tl-content"><div class="tl-month">3–4月 March–April</div><div class="tl-event">「南燕研途，职达湾区」2025年职业发展系列活动</div><div class="tl-en">Career Development Series</div></div>
-      <img class="tl-thumb" src="2025品牌活动/3-4月 “南燕研途，职达湾区”2025年职业发展系列活动 Career Development Series Activities.jpg" alt="职业发展系列活动" onerror="this.style.display='none'" loading="lazy">
-    </div>
-    <div class="tl-item">
-      <div class="tl-content"><div class="tl-month">3–5月 March–May</div><div class="tl-event">高级团校暨第二十期「青云计划」骨干培训班</div><div class="tl-en">Advanced Youth League School &amp; Core Members Training</div></div>
-      <img class="tl-thumb" src="2025品牌活动/3-5月 高级团校暨骨干培训班 Advanced Communist Youth League School & Core Members Training Courses.jpg" alt="高级团校骨干培训班" onerror="this.style.display='none'" loading="lazy">
-    </div>
-    <div class="tl-item">
-      <div class="tl-content"><div class="tl-month">4月 April</div><div class="tl-event">南燕大讲堂</div><div class="tl-en">Nanyan Lecture</div></div>
-      <img class="tl-thumb" src="2025品牌活动/4月 南燕大讲堂 Nanyan Lecture.png" alt="南燕大讲堂" onerror="this.style.display='none'" loading="lazy">
-    </div>
-    <div class="tl-item">
-      <div class="tl-content"><div class="tl-month">4月 April</div><div class="tl-event">北京大学春季运动会</div><div class="tl-en">PKU Spring Sports Day</div></div>
-      <img class="tl-thumb" src="2025品牌活动/4月 北京大学春季运动会“十二冠” PKU Spring Sports Day.jpg" alt="春季运动会" onerror="this.style.display='none'" loading="lazy">
-    </div>
-    <div class="tl-item">
-      <div class="tl-content"><div class="tl-month">5月 May</div><div class="tl-event">校园十佳歌手大赛</div><div class="tl-en">Top Ten Campus Singers Competition</div></div>
-      <img class="tl-thumb" src="2025品牌活动/5月 校园十佳歌手大赛 Top Ten Campus Singers Competition.jpg" alt="十佳歌手大赛" onerror="this.style.display='none'" loading="lazy">
-    </div>
-    <div class="tl-item">
-      <div class="tl-content"><div class="tl-month">6月 June</div><div class="tl-event">毕业典礼</div><div class="tl-en">Graduation Ceremony</div></div>
-      <img class="tl-thumb" src="2025品牌活动/6月 毕业典礼 Graduation Ceremony.jpg" alt="毕业典礼" onerror="this.style.display='none'" loading="lazy">
-    </div>
-    <div class="tl-item">
-      <div class="tl-content"><div class="tl-month">7月 July</div><div class="tl-event">「笃行计划」暑期社会实践</div><div class="tl-en">Summer Social Practice</div></div>
-      <img class="tl-thumb" src="2025品牌活动/7月 “笃行计划”暑期社会实践 Summer Social Practice.jpg" alt="笃行计划暑期社会实践" onerror="this.style.display='none'" loading="lazy">
-    </div>
-    <div class="tl-item">
-      <div class="tl-content"><div class="tl-month">8月 August</div><div class="tl-event">开学典礼</div><div class="tl-en">Opening Ceremony</div></div>
-      <img class="tl-thumb" src="2025品牌活动/8月 开学典礼 Opening Ceremony.jpg" alt="开学典礼" onerror="this.style.display='none'" loading="lazy">
-    </div>
-    <div class="tl-item">
-      <div class="tl-content"><div class="tl-month">8月 August</div><div class="tl-event">2025年开学第一跑</div><div class="tl-en">2025 Academic Year First Run</div></div>
-      <img class="tl-thumb" src="2025品牌活动/8月 2025年开学第一跑 2025 Academic Year First Run.jpg" alt="开学第一跑" onerror="this.style.display='none'" loading="lazy">
-    </div>
-    <div class="tl-item">
-      <div class="tl-content"><div class="tl-month">9月 September</div><div class="tl-event">社团游园会</div><div class="tl-en">Carnival for Student Associations</div></div>
-      <img class="tl-thumb" src="2025品牌活动/9月 社团游园会 Carnival for Student Associations.jpg" alt="社团游园会" onerror="this.style.display='none'" loading="lazy">
-    </div>
-    <div class="tl-item">
-      <div class="tl-content"><div class="tl-month">10月 October</div><div class="tl-event">2025年庆国庆迎新生晚会</div><div class="tl-en">National Day Celebration &amp; Freshman Welcome Gala</div></div>
-      <img class="tl-thumb" src="2025品牌活动/10月 2025年庆国庆迎新生晚会 2025 National Day Celebration and Freshman Welcome Gala.jpg" alt="庆国庆迎新生晚会" onerror="this.style.display='none'" loading="lazy">
-    </div>
-    <div class="tl-item">
-      <div class="tl-content"><div class="tl-month">11月 November</div><div class="tl-event">「北大深圳青年讲堂」品牌系列讲座</div><div class="tl-en">PKU Shenzhen Youth Lecture</div></div>
-      <img class="tl-thumb" src="2025品牌活动/11月 “北大深圳青年讲堂”品牌系列讲座 Peking University Shenzhen Youth Lecture.jpg" alt="北大深圳青年讲堂" onerror="this.style.display='none'" loading="lazy">
-    </div>
-    <div class="tl-item">
-      <div class="tl-content"><div class="tl-month">11月 November</div><div class="tl-event">十五运会志愿活动</div><div class="tl-en">15th National Games Volunteer Program</div></div>
-      <img class="tl-thumb" src="2025品牌活动/11月 十五运会志愿活动 15th National Games Volunteer Program.png" alt="十五运会志愿活动" onerror="this.style.display='none'" loading="lazy">
-    </div>
-    <div class="tl-item">
-      <div class="tl-content"><div class="tl-month">11月 November</div><div class="tl-event">第十六届趣味运动会</div><div class="tl-en">The 16th Fun Sports Meeting</div></div>
-      <img class="tl-thumb" src="2025品牌活动/11月 第十六届趣味运动会 16th Fun Sports Meeting.jpg" alt="趣味运动会" onerror="this.style.display='none'" loading="lazy">
-    </div>
-    <div class="tl-item">
-      <div class="tl-content"><div class="tl-month">12月 December</div><div class="tl-event">北京大学2026年新年联欢晚会</div><div class="tl-en">Peking University 2026 New Year Gala</div></div>
-      <img class="tl-thumb" src="2025品牌活动/12月 北京大学2026年新年联欢晚会 Peking University 2026 New Year Gala.jpg" alt="新年联欢晚会" onerror="this.style.display='none'" loading="lazy">
-    </div>
-  </div>
+ <!-- 品牌活动时间轴 -->
+ <div class="sec-divider"><span>2025 年 品 牌 活 动 时 间 轴</span></div>
+ <div class="timeline">
+ <div class="tl-item">
+ <div class="tl-content"><div class="tl-month">1月 January</div><div class="tl-event">「笃行计划」寒假社会实践</div><div class="tl-en">Winter Social Practice</div></div>
+ <img class="tl-thumb" src="2025品牌活动/1月 “笃行计划”寒假社会实践 Winter Social Practice.jpg" alt="笃行计划寒假社会实践" onerror="this.style.display='none'" loading="lazy">
+ </div>
+ <div class="tl-item">
+ <div class="tl-content"><div class="tl-month">3–4月 March–April</div><div class="tl-event">「南燕研途，职达湾区」2025年职业发展系列活动</div><div class="tl-en">Career Development Series</div></div>
+ <img class="tl-thumb" src="2025品牌活动/3-4月 “南燕研途，职达湾区”2025年职业发展系列活动 Career Development Series Activities.jpg" alt="职业发展系列活动" onerror="this.style.display='none'" loading="lazy">
+ </div>
+ <div class="tl-item">
+ <div class="tl-content"><div class="tl-month">3–5月 March–May</div><div class="tl-event">高级团校暨第二十期「青云计划」骨干培训班</div><div class="tl-en">Advanced Youth League School &amp; Core Members Training</div></div>
+ <img class="tl-thumb" src="2025品牌活动/3-5月 高级团校暨骨干培训班 Advanced Communist Youth League School & Core Members Training Courses.jpg" alt="高级团校骨干培训班" onerror="this.style.display='none'" loading="lazy">
+ </div>
+ <div class="tl-item">
+ <div class="tl-content"><div class="tl-month">4月 April</div><div class="tl-event">南燕大讲堂</div><div class="tl-en">Nanyan Lecture</div></div>
+ <img class="tl-thumb" src="2025品牌活动/4月 南燕大讲堂 Nanyan Lecture.png" alt="南燕大讲堂" onerror="this.style.display='none'" loading="lazy">
+ </div>
+ <div class="tl-item">
+ <div class="tl-content"><div class="tl-month">4月 April</div><div class="tl-event">北京大学春季运动会</div><div class="tl-en">PKU Spring Sports Day</div></div>
+ <img class="tl-thumb" src="2025品牌活动/4月 北京大学春季运动会“十二冠” PKU Spring Sports Day.jpg" alt="春季运动会" onerror="this.style.display='none'" loading="lazy">
+ </div>
+ <div class="tl-item">
+ <div class="tl-content"><div class="tl-month">5月 May</div><div class="tl-event">校园十佳歌手大赛</div><div class="tl-en">Top Ten Campus Singers Competition</div></div>
+ <img class="tl-thumb" src="2025品牌活动/5月 校园十佳歌手大赛 Top Ten Campus Singers Competition.jpg" alt="十佳歌手大赛" onerror="this.style.display='none'" loading="lazy">
+ </div>
+ <div class="tl-item">
+ <div class="tl-content"><div class="tl-month">6月 June</div><div class="tl-event">毕业典礼</div><div class="tl-en">Graduation Ceremony</div></div>
+ <img class="tl-thumb" src="2025品牌活动/6月 毕业典礼 Graduation Ceremony.jpg" alt="毕业典礼" onerror="this.style.display='none'" loading="lazy">
+ </div>
+ <div class="tl-item">
+ <div class="tl-content"><div class="tl-month">7月 July</div><div class="tl-event">「笃行计划」暑期社会实践</div><div class="tl-en">Summer Social Practice</div></div>
+ <img class="tl-thumb" src="2025品牌活动/7月 “笃行计划”暑期社会实践 Summer Social Practice.jpg" alt="笃行计划暑期社会实践" onerror="this.style.display='none'" loading="lazy">
+ </div>
+ <div class="tl-item">
+ <div class="tl-content"><div class="tl-month">8月 August</div><div class="tl-event">开学典礼</div><div class="tl-en">Opening Ceremony</div></div>
+ <img class="tl-thumb" src="2025品牌活动/8月 开学典礼 Opening Ceremony.jpg" alt="开学典礼" onerror="this.style.display='none'" loading="lazy">
+ </div>
+ <div class="tl-item">
+ <div class="tl-content"><div class="tl-month">8月 August</div><div class="tl-event">2025年开学第一跑</div><div class="tl-en">2025 Academic Year First Run</div></div>
+ <img class="tl-thumb" src="2025品牌活动/8月 2025年开学第一跑 2025 Academic Year First Run.jpg" alt="开学第一跑" onerror="this.style.display='none'" loading="lazy">
+ </div>
+ <div class="tl-item">
+ <div class="tl-content"><div class="tl-month">9月 September</div><div class="tl-event">社团游园会</div><div class="tl-en">Carnival for Student Associations</div></div>
+ <img class="tl-thumb" src="2025品牌活动/9月 社团游园会 Carnival for Student Associations.jpg" alt="社团游园会" onerror="this.style.display='none'" loading="lazy">
+ </div>
+ <div class="tl-item">
+ <div class="tl-content"><div class="tl-month">10月 October</div><div class="tl-event">2025年庆国庆迎新生晚会</div><div class="tl-en">National Day Celebration &amp; Freshman Welcome Gala</div></div>
+ <img class="tl-thumb" src="2025品牌活动/10月 2025年庆国庆迎新生晚会 2025 National Day Celebration and Freshman Welcome Gala.jpg" alt="庆国庆迎新生晚会" onerror="this.style.display='none'" loading="lazy">
+ </div>
+ <div class="tl-item">
+ <div class="tl-content"><div class="tl-month">11月 November</div><div class="tl-event">「北大深圳青年讲堂」品牌系列讲座</div><div class="tl-en">PKU Shenzhen Youth Lecture</div></div>
+ <img class="tl-thumb" src="2025品牌活动/11月 “北大深圳青年讲堂”品牌系列讲座 Peking University Shenzhen Youth Lecture.jpg" alt="北大深圳青年讲堂" onerror="this.style.display='none'" loading="lazy">
+ </div>
+ <div class="tl-item">
+ <div class="tl-content"><div class="tl-month">11月 November</div><div class="tl-event">十五运会志愿活动</div><div class="tl-en">15th National Games Volunteer Program</div></div>
+ <img class="tl-thumb" src="2025品牌活动/11月 十五运会志愿活动 15th National Games Volunteer Program.png" alt="十五运会志愿活动" onerror="this.style.display='none'" loading="lazy">
+ </div>
+ <div class="tl-item">
+ <div class="tl-content"><div class="tl-month">11月 November</div><div class="tl-event">第十六届趣味运动会</div><div class="tl-en">The 16th Fun Sports Meeting</div></div>
+ <img class="tl-thumb" src="2025品牌活动/11月 第十六届趣味运动会 16th Fun Sports Meeting.jpg" alt="趣味运动会" onerror="this.style.display='none'" loading="lazy">
+ </div>
+ <div class="tl-item">
+ <div class="tl-content"><div class="tl-month">12月 December</div><div class="tl-event">北京大学2026年新年联欢晚会</div><div class="tl-en">Peking University 2026 New Year Gala</div></div>
+ <img class="tl-thumb" src="2025品牌活动/12月 北京大学2026年新年联欢晚会 Peking University 2026 New Year Gala.jpg" alt="新年联欢晚会" onerror="this.style.display='none'" loading="lazy">
+ </div>
+ </div>
 
-  <!-- 学生社团 -->
-  <div class="clubs-section">
-    <div class="sec-divider"><span>下辖学生社团（63个）</span></div>
-    <div class="clubs-grid">
-      <div class="clubs-col"><h4>📋 职能类（4个）</h4><ul><li>学生艺术团</li><li>南燕新闻社</li><li>南燕之家</li><li>研究生党建研究会</li></ul></div>
-      <div class="clubs-col"><h4>🌱 公益类（4个）</h4><ul><li>绿色+协会</li><li>青年志愿者协会</li><li>公益法律协会</li><li>流浪猫关爱协会</li></ul></div>
-      <div class="clubs-col"><h4>⚽ 体育类（17个）</h4><ul><li>足球 · 篮球 · 排球 · 羽毛球 · 网球 · 乒乓球</li><li>游泳 · 跑步 · 健身 · 武术 · 跆拳道</li><li>骑行 · 攀岩 · 飞盘 · 台球 · 高尔夫 · 帆船</li></ul></div>
-      <div class="clubs-col"><h4>🎨 兴趣类（6个）</h4><ul><li>摄影协会 · 辩论队 · 书画社</li><li>航天文协会 · 心理学社 · 棋牌协会</li></ul></div>
-      <div class="clubs-col"><h4>🚀 实践类（3个）</h4><ul><li>创意创业协会</li><li>青年创业者协会</li><li>职业发展协会</li></ul></div>
-      <div class="clubs-col"><h4>📚 学术类（29个）</h4><ul><li>博雅金融学社 · 管理咨询协会 · 基金研究协会</li><li>金融科技协会 · 商业模式创新协会</li><li>产业发展协会 · 创新创业协会 等 29 个</li></ul></div>
-    </div>
-    <div class="clubs-stats">
-      <div class="club-stat"><div class="club-stat-n">63</div><div class="club-stat-l">个社团</div></div>
-      <div class="club-stat"><div class="club-stat-n">60+</div><div class="club-stat-l">场/年大型活动</div></div>
-      <div class="club-stat"><div class="club-stat-n">5万+</div><div class="club-stat-l">公众号粉丝</div></div>
-      <div class="club-stat"><div class="club-stat-n">6</div><div class="club-stat-l">大类别</div></div>
-    </div>
-  </div>
+ <!-- 学生社团 -->
+ <div class="clubs-section">
+ <div class="sec-divider"><span>下辖学生社团（63个）</span></div>
+ <div class="clubs-grid">
+ <div class="clubs-col"><h4>📋 职能类（4个）</h4><ul><li>学生艺术团</li><li>南燕新闻社</li><li>南燕之家</li><li>研究生党建研究会</li></ul></div>
+ <div class="clubs-col"><h4>🌱 公益类（4个）</h4><ul><li>绿色+协会</li><li>青年志愿者协会</li><li>公益法律协会</li><li>流浪猫关爱协会</li></ul></div>
+ <div class="clubs-col"><h4>⚽ 体育类（17个）</h4><ul><li>足球 · 篮球 · 排球 · 羽毛球 · 网球 · 乒乓球</li><li>游泳 · 跑步 · 健身 · 武术 · 跆拳道</li><li>骑行 · 攀岩 · 飞盘 · 台球 · 高尔夫 · 帆船</li></ul></div>
+ <div class="clubs-col"><h4>🎨 兴趣类（6个）</h4><ul><li>摄影协会 · 辩论队 · 书画社</li><li>航天文协会 · 心理学社 · 棋牌协会</li></ul></div>
+ <div class="clubs-col"><h4>🚀 实践类（3个）</h4><ul><li>创意创业协会</li><li>青年创业者协会</li><li>职业发展协会</li></ul></div>
+ <div class="clubs-col"><h4>📚 学术类（29个）</h4><ul><li>博雅金融学社 · 管理咨询协会 · 基金研究协会</li><li>金融科技协会 · 商业模式创新协会</li><li>产业发展协会 · 创新创业协会 等 29 个</li></ul></div>
+ </div>
+ <div class="clubs-stats">
+ <div class="club-stat"><div class="club-stat-n">63</div><div class="club-stat-l">个社团</div></div>
+ <div class="club-stat"><div class="club-stat-n">60+</div><div class="club-stat-l">场/年大型活动</div></div>
+ <div class="club-stat"><div class="club-stat-n">5万+</div><div class="club-stat-l">公众号粉丝</div></div>
+ <div class="club-stat"><div class="club-stat-n">6</div><div class="club-stat-l">大类别</div></div>
+ </div>
+ </div>
 
 </div>
 </section>
@@ -720,144 +728,149 @@
 <section id="yanjiusheng" class="section">
 <div class="section-inner">
 
-  <div class="section-hero">
-    <div class="section-title-cn s-blue">北京大学深圳研究生院研究生会</div>
-    <div class="section-slogan">造炬成阳 · 官方学生组织</div>
-    <p class="section-desc">
-      研究生会是在北京大学深圳研究生院党委的领导下和团委的具体指导下，以自我管理、自我教育、自我服务精神为指引，独立开展工作的学生自治组织。旨在继承北大传统，弘扬北大精神，带领南燕学子落实思想引领、成长服务、权益维护、校园文化建设、学术精神弘扬等工作。由<strong>常务代表委员会</strong>和<strong>执行委员会</strong>两个机构组成。
-    </p>
-  </div>
+ <div class="section-hero">
+ <div class="section-title-cn s-blue">北京大学深圳研究生院研究生会</div>
+ <div class="section-slogan">造炬成阳 · 官方学生组织</div>
+ <p class="section-desc">
+ 研究生会是在北京大学深圳研究生院党委的领导下和团委的具体指导下，以自我管理、自我教育、自我服务精神为指引，独立开展工作的学生自治组织。旨在继承北大传统，弘扬北大精神，带领南燕学子落实思想引领、成长服务、权益维护、校园文化建设、学术精神弘扬等工作。由<strong>执行委员会</strong>和<strong>常务代表委员会</strong>两个机构组成。
+ </p>
+ </div>
 
-  <!-- 研会二维码 -->
-  <div class="qr-row">
-    <div class="qr-row-card blue-top">
-      <span class="qr-tag tag-blue" style="font-size:11px;">研会公众号</span>
-      <div class="qr-img-wrap"><img src="招新二维码/南燕研究生会.png" alt="南燕研究生会"></div>
-      <div class="qr-row-label" style="color:var(--blue-accent)">南燕研究生会</div>
-      <div class="qr-row-sub">公众号关注</div>
-    </div>
-    <div class="qr-row-card blue-top">
-      <span class="qr-tag tag-blue" style="font-size:11px;">📌 招新1群</span>
-      <div class="qr-img-wrap"><img src="招新二维码/研会招新1群.png" alt="研会招新1群"></div>
-      <div class="qr-row-label" style="color:var(--blue-accent)">研会招新1群</div>
-      <div class="qr-row-sub">扫码加群</div>
-    </div>
-    <div class="qr-row-card blue-top">
-      <span class="qr-tag tag-blue" style="font-size:11px;">📌 招新2群</span>
-      <div class="qr-img-wrap"><img src="招新二维码/研会招新2群.png" alt="研会招新2群"></div>
-      <div class="qr-row-label" style="color:var(--blue-accent)">研会招新2群</div>
-      <div class="qr-row-sub">扫码加群</div>
-    </div>
-  </div>
+ <!-- 研会二维码 -->
+ <div class="qr-row">
+ <div class="qr-row-card blue-top">
+ <span class="qr-tag tag-blue" style="font-size:11px;">研会公众号</span>
+ <div class="qr-img-wrap"><img src="招新二维码/南燕研究生会.png" alt="南燕研究生会"></div>
+ <div class="qr-row-label" style="color:var(--blue-accent)">南燕研究生会</div>
+ <div class="qr-row-sub">公众号关注</div>
+ </div>
+ <div class="qr-row-card blue-top">
+ <span class="qr-tag tag-blue" style="font-size:11px;">📌 招新1群</span>
+ <div class="qr-img-wrap"><img src="招新二维码/研会招新1群.png" alt="研会招新1群"></div>
+ <div class="qr-row-label" style="color:var(--blue-accent)">研会招新1群</div>
+ <div class="qr-row-sub">扫码加群</div>
+ </div>
+ <div class="qr-row-card blue-top">
+ <span class="qr-tag tag-blue" style="font-size:11px;">📌 招新2群</span>
+ <div class="qr-img-wrap"><img src="招新二维码/研会招新2群.png" alt="研会招新2群"></div>
+ <div class="qr-row-label" style="color:var(--blue-accent)">研会招新2群</div>
+ <div class="qr-row-sub">扫码加群</div>
+ </div>
+ </div>
 
-  <!-- 执委会 -->
-  <div class="sec-divider"><span>执行委员会 · 六大部门</span></div>
-  <div class="exec-header"><span class="exec-tag et-blue">执行委员会</span><h3>执委会部门介绍</h3></div>
+ <!-- 执委会 -->
+ <div class="sec-divider"><span>执行委员会 · 六大部门</span></div>
+ <div class="exec-header"><span class="exec-tag et-blue">执行委员会</span><h3>执委会部门介绍</h3></div>
 
-  <div class="dept-grid">
-    <div class="dept-card dc-blue">
-      <div class="dept-num">01 · GENERAL AFFAIRS</div>
-      <div class="dept-name">综合事务部</div>
-      <div class="dept-body">综千项事，合万钧力。作为执委会的"大总管"，协助主席团管理日常事务并策划工作蓝图，统筹日常工作、文件起草、物资管理；对内履行沟通联络、基础支持等职责，组织研会迎新破冰活动；对外统筹研会招新，策划南燕寻TA交友活动、寝室文化节、女生节等极具特色的校园文化活动。</div>
-      <div class="dept-highlights"><div class="hl-label">▸ 品牌活动</div><div class="hl-items">南燕寻TA一周CP交友活动 · 寝室文化节 · 妇女节系列活动 · 研会迎新破冰</div></div>
-      <div class="photo-strip">
-        <img src="研会+艺术团+社团 照片/image4.jpeg" alt="活动" onerror="this.style.display='none'" loading="lazy">
-        <img src="研会+艺术团+社团 照片/image5.jpeg" alt="活动" onerror="this.style.display='none'" loading="lazy">
-        <img src="研会+艺术团+社团 照片/image6.jpeg" alt="活动" onerror="this.style.display='none'" loading="lazy">
-      </div>
-    </div>
-    <div class="dept-card dc-blue">
-      <div class="dept-num">02 · ARTS</div>
-      <div class="dept-name">文艺部</div>
-      <div class="dept-body">我们是造梦者。致力于打造"庆国庆迎新生晚会""校园十佳歌手大赛"等校园文艺活动，营造青春洋溢的文化氛围；携手学生艺术团，为每一位怀揣热爱的你提供绽放光芒的专属舞台。从镜湖之夜游园会到十佳歌手唱响南燕园，文艺部让每个梦想都闪闪发光。</div>
-      <div class="dept-highlights"><div class="hl-label">▸ 品牌活动</div><div class="hl-items">庆国庆迎新生晚会 · 校园十佳歌手大赛 · 镜湖之夜游园会</div></div>
-      <div class="photo-strip">
-        <img src="研会+艺术团+社团 照片/image8.jpeg" alt="迎新晚会" onerror="this.style.display='none'" loading="lazy">
-        <img src="研会+艺术团+社团 照片/image9.jpeg" alt="十佳歌手" onerror="this.style.display='none'" loading="lazy">
-        <img src="研会+艺术团+社团 照片/image10.jpeg" alt="活动" onerror="this.style.display='none'" loading="lazy">
-      </div>
-    </div>
-    <div class="dept-card dc-blue">
-      <div class="dept-num">03 · SPORTS</div>
-      <div class="dept-name">体育部</div>
-      <div class="dept-body">积极进取、阳光活力是体育部的代名词。从"迎新杯"、趣味运动会、桃源街道趣味运动会到校本部运动会，体育部致力于策划和组织各种竞技类体育赛事和趣味运动，积极践行"完全人格，首在体育"的部门信条。<strong>十三连冠！</strong></div>
-      <div class="dept-highlights"><div class="hl-label">▸ 品牌活动</div><div class="hl-items">迎新杯系列赛事 · 趣味运动会 · 校本部运动会（十三连冠🏆）</div></div>
-      <div class="photo-strip">
-        <img src="研会+艺术团+社团 照片/image12.png" alt="迎新杯游泳" onerror="this.style.display='none'" loading="lazy">
-        <img src="研会+艺术团+社团 照片/image13.png" alt="趣味运动会" onerror="this.style.display='none'" loading="lazy">
-        <img src="研会+艺术团+社团 照片/image14.jpeg" alt="春季运动会" onerror="this.style.display='none'" loading="lazy">
-      </div>
-    </div>
-    <div class="dept-card dc-blue">
-      <div class="dept-num">04 · PUBLICITY</div>
-      <div class="dept-name">宣传部</div>
-      <div class="dept-body">创意传声，光影留痕。主要负责研究生会官方微信公众号运营管理，对执委会举办的活动进行推文编辑、跟踪摄影、海报设计等宣传工作，对大型活动提供技术支持，定期组织开展南燕创意设计大赛，助力校园文化传播。</div>
-      <div class="dept-highlights"><div class="hl-label">▸ 品牌活动</div><div class="hl-items">南燕创意设计大赛 · 官网大图与节目单设计 · 研会公众号运营</div></div>
-    </div>
-    <div class="dept-card dc-blue">
-      <div class="dept-num">05 · ACADEMIC PRACTICE</div>
-      <div class="dept-name">学术实践部</div>
-      <div class="dept-body">学术思辨，躬行实践。负责学术讲座、演讲访谈、求职分享、科创实践四大板块工作，致力于提升校园学术氛围、加强校企合作交流。你将有机会接触优秀校友、科研大佬与行业大牛，助力搭建专属南燕学子的学术就业指引和资讯共享平台。</div>
-      <div class="dept-highlights"><div class="hl-label">▸ 品牌活动</div><div class="hl-items">师兄师姐说之科研求索分享会 · 岭南非遗进南燕 · 职业发展企业参访（华为松山湖基地等）· 2026年职业发展系列活动</div></div>
-      <div class="photo-strip">
-        <img src="研会+艺术团+社团 照片/image16.png" alt="分享会" onerror="this.style.display='none'" loading="lazy">
-        <img src="研会+艺术团+社团 照片/image17.png" alt="非遗进南燕" onerror="this.style.display='none'" loading="lazy">
-      </div>
-    </div>
-    <div class="dept-card dc-blue">
-      <div class="dept-num">06 · LIAISON</div>
-      <div class="dept-name">联络发展部</div>
-      <div class="dept-body">致力于内外部联络工作，促进资源共享与团队建设。与内部各部门及学院研究生会等组织开展联谊团建，与两岸四地高校研究生会、学生会等保持联系交流。为研究生会活动争取支持，对接社会资源和企业赞助。</div>
-      <div class="dept-highlights"><div class="hl-label">▸ 品牌活动</div><div class="hl-items">中南大学参访交流 · 香港中文大学来访 · 各大企业赞助路演 · 高校参访交流</div></div>
-    </div>
-  </div>
+ <div class="dept-grid">
+ <div class="dept-card dc-blue">
+ <div class="dept-num">01 · GENERAL AFFAIRS</div>
+ <div class="dept-name">综合事务部</div>
+ <div class="dept-body">综千项事，合万钧力。作为执委会的"大总管"，协助主席团管理日常事务并策划工作蓝图，统筹日常工作、文件起草、物资管理；对内履行沟通联络、基础支持等职责，组织研会迎新破冰活动；对外统筹研会招新，策划南燕寻TA交友活动、寝室文化节、女生节等极具特色的校园文化活动。</div>
+ <div class="dept-highlights"><div class="hl-label">▸ 品牌活动</div><div class="hl-items">南燕寻TA一周CP交友活动 · 寝室文化节 · 妇女节系列活动 · 研会迎新破冰</div></div>
+ <div class="photo-strip">
+ <img src="研会+艺术团+社团 照片/image4.jpeg" alt="活动" onerror="this.style.display='none'" loading="lazy">
+ <img src="研会+艺术团+社团 照片/image5.jpeg" alt="活动" onerror="this.style.display='none'" loading="lazy">
+ </div>
+ </div>
+ <div class="dept-card dc-blue">
+ <div class="dept-num">02 · ARTS</div>
+ <div class="dept-name">文艺部</div>
+ <div class="dept-body">我们是造梦者。致力于打造"庆国庆迎新生晚会""校园十佳歌手大赛"等校园文艺活动，营造青春洋溢的文化氛围；携手学生艺术团，为每一位怀揣热爱的你提供绽放光芒的专属舞台。从镜湖之夜游园会到十佳歌手唱响南燕园，文艺部让每个梦想都闪闪发光。</div>
+ <div class="dept-highlights"><div class="hl-label">▸ 品牌活动</div><div class="hl-items">庆国庆迎新生晚会 · 校园十佳歌手大赛 · 镜湖之夜游园会</div></div>
+ <div class="photo-strip">
+ <img src="研会+艺术团+社团 照片/image8.jpeg" alt="迎新晚会" onerror="this.style.display='none'" loading="lazy">
+ <img src="研会+艺术团+社团 照片/image9.jpeg" alt="十佳歌手" onerror="this.style.display='none'" loading="lazy">
+ </div>
+ </div>
+ <div class="dept-card dc-blue">
+ <div class="dept-num">03 · SPORTS</div>
+ <div class="dept-name">体育部</div>
+ <div class="dept-body">积极进取、阳光活力是体育部的代名词。从"迎新杯"、趣味运动会、桃源街道趣味运动会到校本部运动会，体育部致力于策划和组织各种竞技类体育赛事和趣味运动，积极践行"完全人格，首在体育"的部门信条。<strong>十三连冠！</strong></div>
+ <div class="dept-highlights"><div class="hl-label">▸ 品牌活动</div><div class="hl-items">迎新杯系列赛事 · 趣味运动会 · 校本部运动会（十三连冠🏆）</div></div>
+ <div class="photo-strip">
+ <img src="研会+艺术团+社团 照片/image12.png" alt="迎新杯游泳" onerror="this.style.display='none'" loading="lazy">
+ <img src="研会+艺术团+社团 照片/image13.png" alt="趣味运动会" onerror="this.style.display='none'" loading="lazy">
+ </div>
+ </div>
+ <div class="dept-card dc-blue">
+ <div class="dept-num">04 · PUBLICITY</div>
+ <div class="dept-name">宣传部</div>
+ <div class="dept-body">创意传声，光影留痕。主要负责研究生会官方微信公众号运营管理，对执委会举办的活动进行推文编辑、跟踪摄影、海报设计等宣传工作，对大型活动提供技术支持，定期组织开展南燕创意设计大赛，助力校园文化传播。</div>
+ <div class="dept-highlights"><div class="hl-label">▸ 品牌活动</div><div class="hl-items">南燕创意设计大赛 · 官网大图与节目单设计 · 研会公众号运营</div></div>
+ <div class="photo-strip">
+ <img src="研会+艺术团+社团 照片/image30.jpeg" alt="宣传设计" onerror="this.style.display='none'" loading="lazy">
+ <img src="研会+艺术团+社团 照片/image31.png" alt="宣传设计" onerror="this.style.display='none'" loading="lazy">
+ </div>
+ </div>
+ <div class="dept-card dc-blue">
+ <div class="dept-num">05 · ACADEMIC PRACTICE</div>
+ <div class="dept-name">学术实践部</div>
+ <div class="dept-body">学术思辨，躬行实践。负责学术讲座、演讲访谈、求职分享、科创实践四大板块工作，致力于提升校园学术氛围、加强校企合作交流。你将有机会接触优秀校友、科研大佬与行业大牛，助力搭建专属南燕学子的学术就业指引和资讯共享平台。</div>
+ <div class="dept-highlights"><div class="hl-label">▸ 品牌活动</div><div class="hl-items">师兄师姐说之科研求索分享会 · 岭南非遗进南燕 · 职业发展企业参访（华为松山湖基地等）· 2026年职业发展系列活动</div></div>
+ <div class="photo-strip">
+ <img src="研会+艺术团+社团 照片/image16.png" alt="分享会" onerror="this.style.display='none'" loading="lazy">
+ <img src="研会+艺术团+社团 照片/image17.png" alt="非遗进南燕" onerror="this.style.display='none'" loading="lazy">
+ </div>
+ </div>
+ <div class="dept-card dc-blue">
+ <div class="dept-num">06 · LIAISON</div>
+ <div class="dept-name">联络发展部</div>
+ <div class="dept-body">致力于内外部联络工作，促进资源共享与团队建设。与内部各部门及学院研究生会等组织开展联谊团建，与两岸四地高校研究生会、学生会等保持联系交流。为研究生会活动争取支持，对接社会资源和企业赞助。</div>
+ <div class="dept-highlights"><div class="hl-label">▸ 品牌活动</div><div class="hl-items">中南大学参访交流 · 香港中文大学来访 · 各大企业赞助路演 · 高校参访交流</div></div>
+ <div class="photo-strip">
+ <img src="研会+艺术团+社团 照片/image33.png" alt="参访交流" onerror="this.style.display='none'" loading="lazy">
+ <img src="研会+艺术团+社团 照片/image35.png" alt="参访交流" onerror="this.style.display='none'" loading="lazy">
+ </div>
+ </div>
+ </div>
 
-  <!-- 常代会 -->
-  <div class="sec-divider"><span>常务代表委员会 · 四大部门</span></div>
-  <div class="exec-header"><span class="exec-tag et-blue2">常务代表委员会</span><h3>常代会部门介绍</h3></div>
+ <!-- 常代会 -->
+ <div class="sec-divider"><span>常务代表委员会 · 四大部门</span></div>
+ <div class="exec-header"><span class="exec-tag et-blue2">常务代表委员会</span><h3>常代会部门介绍</h3></div>
 
-  <div class="dept-grid">
-    <div class="dept-card dc-blue">
-      <div class="dept-num">01 · MANAGEMENT</div>
-      <div class="dept-name">组织管理部</div>
-      <div class="dept-body">统筹协调，连接你我；汇聚众声，服务同学。常代会的中枢部门，负责会议组织、内部管理、对外联络及品牌活动运营，是连接主任团、各部门与广大同学的重要桥梁。从研究生代表大会、常代表茶话会到"薪火计划"，以组织凝聚共识，以沟通促进协同。</div>
-      <div class="dept-highlights"><div class="hl-label">▸ 品牌活动</div><div class="hl-items">研究生代表大会 · "薪火计划"学生骨干赋能培训班 · "花开南燕，新绽韶华"迎新破冰暨联欢晚会</div></div>
-      <div class="photo-strip">
-        <img src="研会+艺术团+社团 照片/image18.jpeg" alt="研代会" onerror="this.style.display='none'" loading="lazy">
-      </div>
-    </div>
-    <div class="dept-card dc-blue">
-      <div class="dept-num">02 · RIGHTS</div>
-      <div class="dept-name">权益监察部</div>
-      <div class="dept-body">负责同学权益维护与常代民主监督工作，是广大同学与学校职能部门间的核心沟通桥梁。常态化开展月度权益提案征集，定期收集提案并组织权益例会、撰写并发布权益报告；立足师生健康需求深度打磨"健康月"精品IP，联动专业医疗机构打造西医看诊、推拿按摩等多主题义诊活动。</div>
-      <div class="dept-highlights"><div class="hl-label">▸ 品牌活动</div><div class="hl-items">南燕"健康月"系列活动 · 年度权益工作报告 · 施工噪音多方座谈会 · 月度权益提案</div></div>
-      <div class="photo-strip">
-        <img src="研会+艺术团+社团 照片/image32.jpeg" alt="健康月" onerror="this.style.display='none'" loading="lazy">
-        <img src="研会+艺术团+社团 照片/image34.png" alt="会议" onerror="this.style.display='none'" loading="lazy">
-      </div>
-    </div>
-    <div class="dept-card dc-blue">
-      <div class="dept-num">03 · NEW MEDIA</div>
-      <div class="dept-name">新媒体中心</div>
-      <div class="dept-body">研究生会信息传播和媒体运营的核心部门，负责塑造和提升研会品牌形象。全面负责研会官方微信公众号运营管理，对常代会各类活动进行全流程宣传推广。工作涵盖推送内容策划与制作、活动摄影记录、新闻稿件撰写，以及海报、展板、南燕文创、研小羊IP等宣传物料设计。</div>
-      <div class="dept-highlights"><div class="hl-label">▸ 品牌出品</div><div class="hl-items">研会吉祥物"研小羊"IP · 南北联名专属月饼 · "豆趣南燕"拼豆DIY · 南燕文创设计</div></div>
-      <div class="photo-strip">
-        <img src="研会+艺术团+社团 照片/image36.jpeg" alt="南燕" onerror="this.style.display='none'" loading="lazy">
-        <img src="研会+艺术团+社团 照片/image37.png" alt="月饼" onerror="this.style.display='none'" loading="lazy">
-        <img src="研会+艺术团+社团 照片/image38.jpeg" alt="拼豆DIY" onerror="this.style.display='none'" loading="lazy">
-      </div>
-    </div>
-    <div class="dept-card dc-blue">
-      <div class="dept-num">04 · DINING</div>
-      <div class="dept-name">膳食委员会</div>
-      <div class="dept-body">连接学生与学校餐饮服务的关键纽带，负责监督和改进校园餐饮质量。定期组织学生代表对食堂进行评估，调研学生餐饮需求，推动食堂服务优化。特色活动包括"中秋游园会""醒春派对""咖啡品鉴沙龙"等，旨在丰富同学们的饮食体验，提升校园餐饮满意度。</div>
-      <div class="dept-highlights"><div class="hl-label">▸ 品牌活动</div><div class="hl-items">中秋游园会 · 醒春派对 · 咖啡品鉴沙龙 · 月度食堂检查</div></div>
-      <div class="photo-strip">
-        <img src="研会+艺术团+社团 照片/image40.png" alt="醒春派对" onerror="this.style.display='none'" loading="lazy">
-        <img src="研会+艺术团+社团 照片/image41.png" alt="咖啡品鉴" onerror="this.style.display='none'" loading="lazy">
-      </div>
-    </div>
-  </div>
+ <div class="dept-grid">
+ <div class="dept-card dc-blue">
+ <div class="dept-num">01 · MANAGEMENT</div>
+ <div class="dept-name">组织管理部</div>
+ <div class="dept-body">统筹协调，连接你我；汇聚众声，服务同学。常代会的中枢部门，负责会议组织、内部管理、对外联络及品牌活动运营，是连接主任团、各部门与广大同学的重要桥梁。从研究生代表大会、常代表茶话会到"薪火计划"，以组织凝聚共识，以沟通促进协同。</div>
+ <div class="dept-highlights"><div class="hl-label">▸ 品牌活动</div><div class="hl-items">研究生代表大会 · "薪火计划"学生骨干赋能培训班 · "花开南燕，新绽韶华"迎新破冰暨联欢晚会</div></div>
+ <div class="photo-strip">
+ <img src="研会+艺术团+社团 照片/image18.jpeg" alt="研代会" onerror="this.style.display='none'" loading="lazy">
+ <img src="研会+艺术团+社团 照片/image19.png" alt="薪火计划" onerror="this.style.display='none'" loading="lazy">
+ </div>
+ </div>
+ <div class="dept-card dc-blue">
+ <div class="dept-num">02 · RIGHTS</div>
+ <div class="dept-name">权益监察部</div>
+ <div class="dept-body">负责同学权益维护与常代民主监督工作，是广大同学与学校职能部门间的核心沟通桥梁。常态化开展月度权益提案征集，定期收集提案并组织权益例会、撰写并发布权益报告；立足师生健康需求深度打磨"健康月"精品IP，联动专业医疗机构打造西医看诊、推拿按摩等多主题义诊活动。</div>
+ <div class="dept-highlights"><div class="hl-label">▸ 品牌活动</div><div class="hl-items">南燕"健康月"系列活动 · 年度权益工作报告 · 施工噪音多方座谈会 · 月度权益提案</div></div>
+ <div class="photo-strip">
+ <img src="研会+艺术团+社团 照片/image32.jpeg" alt="健康月" onerror="this.style.display='none'" loading="lazy">
+ <img src="研会+艺术团+社团 照片/image34.png" alt="会议" onerror="this.style.display='none'" loading="lazy">
+ </div>
+ </div>
+ <div class="dept-card dc-blue">
+ <div class="dept-num">03 · NEW MEDIA</div>
+ <div class="dept-name">新媒体中心</div>
+ <div class="dept-body">研究生会信息传播和媒体运营的核心部门，负责塑造和提升研会品牌形象。全面负责研会官方微信公众号运营管理，对常代会各类活动进行全流程宣传推广。工作涵盖推送内容策划与制作、活动摄影记录、新闻稿件撰写，以及海报、展板、南燕文创、研小羊IP等宣传物料设计。</div>
+ <div class="dept-highlights"><div class="hl-label">▸ 品牌出品</div><div class="hl-items">研会吉祥物"研小羊"IP · 南北联名专属月饼 · "豆趣南燕"拼豆DIY · 南燕文创设计</div></div>
+ <div class="photo-strip">
+ <img src="研会+艺术团+社团 照片/image36.jpeg" alt="南燕" onerror="this.style.display='none'" loading="lazy">
+ <img src="研会+艺术团+社团 照片/image37.png" alt="月饼" onerror="this.style.display='none'" loading="lazy">
+ </div>
+ </div>
+ <div class="dept-card dc-blue">
+ <div class="dept-num">04 · DINING</div>
+ <div class="dept-name">膳食委员会</div>
+ <div class="dept-body">连接学生与学校餐饮服务的关键纽带，负责监督和改进校园餐饮质量。定期组织学生代表对食堂进行评估，调研学生餐饮需求，推动食堂服务优化。特色活动包括"中秋游园会""醒春派对""咖啡品鉴沙龙"等，旨在丰富同学们的饮食体验，提升校园餐饮满意度。</div>
+ <div class="dept-highlights"><div class="hl-label">▸ 品牌活动</div><div class="hl-items">中秋游园会 · 醒春派对 · 咖啡品鉴沙龙 · 月度食堂检查</div></div>
+ <div class="photo-strip">
+ <img src="研会+艺术团+社团 照片/image40.png" alt="醒春派对" onerror="this.style.display='none'" loading="lazy">
+ <img src="研会+艺术团+社团 照片/image41.png" alt="咖啡品鉴" onerror="this.style.display='none'" loading="lazy">
+ </div>
+ </div>
+ </div>
 
 </div>
 </section>
@@ -866,181 +879,184 @@
 <section id="yishutuan" class="section">
 <div class="section-inner">
 
-  <div class="section-hero">
-    <div class="section-title-cn s-purple">北京大学深圳研究生院学生艺术团</div>
-    <div class="section-slogan">学用艺术 · 优秀又优雅</div>
-    <p class="section-desc">
-      北京大学深圳研究生院学生艺术团（简称艺术团）成立于2008年，隶属于北京大学深圳研究生院团委。艺术团自成立以来，逐步发展出多样化的艺术队伍，涉及更多元的艺术形式，如舞蹈、器乐、合唱、乐队以及阿卡贝拉等。参与了北大深研院建院20周年晚会、迎新晚会、镜湖之夜、校园十佳歌手、校本部跨年晚会等各类校园活动。学生艺术团下设<strong>3个职能部门、8支艺术队伍</strong>。
-    </p>
-  </div>
+ <div class="section-hero">
+ <div class="section-title-cn s-purple">北京大学深圳研究生院学生艺术团</div>
+ <div class="section-slogan">学用艺术 · 优秀又优雅</div>
+ <p class="section-desc">
+ 北京大学深圳研究生院学生艺术团（简称艺术团）成立于2008年，隶属于北京大学深圳研究生院团委。艺术团自成立以来，逐步发展出多样化的艺术队伍，涉及更多元的艺术形式，如舞蹈、器乐、合唱、乐队以及阿卡贝拉等。参与了北大深研院建院20周年晚会、迎新晚会、镜湖之夜、校园十佳歌手、校本部跨年晚会等各类校园活动。学生艺术团下设<strong>3个职能部门、8支艺术队伍</strong>。
+ </p>
+ </div>
 
-  <!-- 艺术团二维码 -->
-  <div class="qr-row">
-    <div class="qr-row-card purple-top" style="transform:scale(1.06);">
-      <span class="qr-tag tag-purple" style="font-size:12px;">📌 2026招新大群</span>
-      <div class="qr-img-wrap big"><img src="招新二维码/艺术团招新大群.png" alt="艺术团招新大群"></div>
-      <div class="qr-row-label" style="color:var(--purple-accent);font-size:15px;">艺术团招新大群</div>
-      <div class="qr-row-sub">2026 招新大群，扫码加入</div>
-    </div>
-    <div class="qr-row-card purple-top">
-      <span class="qr-tag tag-purple" style="font-size:11px;">职能部门招新</span>
-      <div class="qr-img-wrap"><img src="招新二维码/艺术团职能部门招新群.png" alt="职能部门招新群"></div>
-      <div class="qr-row-label" style="color:var(--purple-accent)">职能部门招新群</div>
-      <div class="qr-row-sub">组织策划·宣传推广·综合管理</div>
-    </div>
-  </div>
+ <!-- 艺术团二维码 -->
+ <div class="qr-row">
+ <div class="qr-row-card purple-top" style="transform:scale(1.06);">
+ <span class="qr-tag tag-purple" style="font-size:12px;">📌 2026招新大群</span>
+ <div class="qr-img-wrap big"><img src="招新二维码/艺术团招新大群.png" alt="艺术团招新大群"></div>
+ <div class="qr-row-label" style="color:var(--purple-accent);font-size:15px;">艺术团招新大群</div>
+ <div class="qr-row-sub">2026 招新大群，扫码加入</div>
+ </div>
+ <div class="qr-row-card purple-top">
+ <span class="qr-tag tag-purple" style="font-size:11px;">职能部门招新</span>
+ <div class="qr-img-wrap"><img src="招新二维码/艺术团职能部门招新群.png" alt="职能部门招新群"></div>
+ <div class="qr-row-label" style="color:var(--purple-accent)">职能部门招新群</div>
+ <div class="qr-row-sub">组织策划·宣传推广·综合管理</div>
+ </div>
+ </div>
 
-  <!-- 3个职能部门 -->
-  <div class="sec-divider"><span>三 大 职 能 部 门</span></div>
-  <div class="art-dept-row">
-    <div class="art-dept-card">
-      <div class="adc-num">01</div>
-      <div class="adc-name">组织策划部</div>
-      <div class="adc-desc">负责艺术团参与各项重大活动的策划、组织、联络。沟通团委职能部门、研会等各个学生团体，联动各方面力量开展工作，策划与组织艺术团各支队伍参与到多样的艺术展示活动中，是学生艺术团沟通的重要桥梁。</div>
-    </div>
-    <div class="art-dept-card">
-      <div class="adc-num">02</div>
-      <div class="adc-name">宣传推广部</div>
-      <div class="adc-desc">负责艺术团全维度宣传，从发布活动公告、定格成员艺术高光，到传递团队理念与精神，让校园看见艺术团的每一份精彩。作为艺术团"发声窗口"，用文字、画面与创意搭建起师生与艺术活动的桥梁。</div>
-    </div>
-    <div class="art-dept-card">
-      <div class="adc-num">03</div>
-      <div class="adc-name">综合管理部</div>
-      <div class="adc-desc">负责艺术团各项综合事务的办公与办理，涉及艺术团财务管理、信息对接、物资统筹等方面综合事务，协助各支艺术队伍开展工作，建设多种形式的艺术团团建交流活动，是凝聚艺术团力量的重要职能部门。</div>
-    </div>
-  </div>
+ <!-- 3个职能部门 -->
+ <div class="sec-divider"><span>三 大 职 能 部 门</span></div>
+ <div class="art-dept-row">
+ <div class="art-dept-card">
+ <div class="adc-num">01</div>
+ <div class="adc-name">组织策划部</div>
+ <div class="adc-desc">负责艺术团参与各项重大活动的策划、组织、联络。沟通团委职能部门、研会等各个学生团体，联动各方面力量开展工作，策划与组织艺术团各支队伍参与到多样的艺术展示活动中，是学生艺术团沟通的重要桥梁。</div>
+ </div>
+ <div class="art-dept-card">
+ <div class="adc-num">02</div>
+ <div class="adc-name">宣传推广部</div>
+ <div class="adc-desc">负责艺术团全维度宣传，从发布活动公告、定格成员艺术高光，到传递团队理念与精神，让校园看见艺术团的每一份精彩。作为艺术团"发声窗口"，用文字、画面与创意搭建起师生与艺术活动的桥梁。</div>
+ </div>
+ <div class="art-dept-card">
+ <div class="adc-num">03</div>
+ <div class="adc-name">综合管理部</div>
+ <div class="adc-desc">负责艺术团各项综合事务的办公与办理，涉及艺术团财务管理、信息对接、物资统筹等方面综合事务，协助各支艺术队伍开展工作，建设多种形式的艺术团团建交流活动，是凝聚艺术团力量的重要职能部门。</div>
+ </div>
+ </div>
 
-  <!-- 8支艺术队伍 -->
-  <div class="sec-divider"><span>八 支 艺 术 表 演 队 伍</span></div>
+ <!-- 8支艺术队伍 -->
+ <div class="sec-divider"><span>八 支 艺 术 表 演 队 伍</span></div>
 
-  <div class="troupe-grid">
-    <div class="troupe-card">
-      <span class="troupe-emoji">🕺</span>
-      <div class="troupe-name">街舞队</div>
-      <div class="troupe-desc">艺术团最有活力的分队之一，风格以 hiphop 和 jazz 为主。新生晚会《What is Love》、运动会《Plot Twist》、舞蹈专场《Genie》《Under the Influence》，更在深圳大学生五四汇演中以《Focus》斩获佳绩。</div>
-      <div class="photo-strip">
-        <img src="研会+艺术团+社团 照片/image47.jpeg" alt="开学典礼" onerror="this.style.display='none'" loading="lazy">
-        <img src="研会+艺术团+社团 照片/image48.png" alt="运动会表演" onerror="this.style.display='none'" loading="lazy">
-        <img src="研会+艺术团+社团 照片/image49.jpeg" alt="五四汇演" onerror="this.style.display='none'" loading="lazy">
-      </div>
-    </div>
-    <div class="troupe-card">
-      <span class="troupe-emoji">💃</span>
-      <div class="troupe-name">舞蹈队</div>
-      <div class="troupe-desc">成立于2009年，以古典舞、民族舞、现代舞为主，是艺术团的王牌分队。代表剧目《喜雨》《林涧》《湘君湘夫人》《浔山行》《雨涧春行图》《戈壁》《天浴》《粤绣粤美》《英歌贺岁》。</div>
-      <div class="photo-strip">
-        <img src="研会+艺术团+社团 照片/image51.png" alt="粤绣粤美" onerror="this.style.display='none'" loading="lazy">
-        <img src="研会+艺术团+社团 照片/image52.jpeg" alt="英歌贺岁" onerror="this.style.display='none'" loading="lazy">
-        <img src="研会+艺术团+社团 照片/image53.jpeg" alt="湘君湘夫人" onerror="this.style.display='none'" loading="lazy">
-      </div>
-    </div>
-    <div class="troupe-card">
-      <span class="troupe-emoji">🎤</span>
-      <div class="troupe-name">合唱队</div>
-      <div class="troupe-desc">成立于2008年，与清华大学深圳国际研究生院合唱团合作组成"清北节拍合团"（TAP CHORUS）。2026年举办"聚光成歌，廿五献礼"专场暨院庆音乐会。亮相西丽湖国际艺术周、新年音乐会、迎新晚会和毕业典礼等。</div>
-      <div class="photo-strip">
-        <img src="研会+艺术团+社团 照片/image55.jpeg" alt="音乐会" onerror="this.style.display='none'" loading="lazy">
-        <img src="研会+艺术团+社团 照片/image56.jpeg" alt="开学典礼" onerror="this.style.display='none'" loading="lazy">
-        <img src="研会+艺术团+社团 照片/image57.png" alt="合唱团专场" onerror="this.style.display='none'" loading="lazy">
-      </div>
-    </div>
-    <div class="troupe-card">
-      <span class="troupe-emoji">🎵</span>
-      <div class="troupe-name">阿卡贝拉队</div>
-      <div class="troupe-desc">CocoaPink 阿卡贝拉乐团隶属于合唱队，以纯人声的非凡表现力呈现无与伦比的听觉盛宴。现面向<strong>北大、清华、哈工大三校</strong>招募——无论 Vocal 还是 BBOXer，都欢迎加入！</div>
-      <div class="photo-strip">
-        <img src="研会+艺术团+社团 照片/image59.jpeg" alt="赛艇之夜" onerror="this.style.display='none'" loading="lazy">
-        <img src="研会+艺术团+社团 照片/image60.jpeg" alt="大学城迎新" onerror="this.style.display='none'" loading="lazy">
-      </div>
-    </div>
-    <div class="troupe-card">
-      <span class="troupe-emoji">🎻</span>
-      <div class="troupe-name">器乐队</div>
-      <div class="troupe-desc">活跃于校内外活动的学生器乐团体，演奏经典民族音乐和西洋音乐，也拥抱现代流行音乐。举办迎新音乐会、"弦思八音·仲夏乐鸣"专场展演等，用音乐连接不同文化和情感。</div>
-      <div class="photo-strip">
-        <img src="研会+艺术团+社团 照片/image63.jpeg" alt="北大logo合影" onerror="this.style.display='none'" loading="lazy">
-        <img src="研会+艺术团+社团 照片/image64.jpeg" alt="器乐表演" onerror="this.style.display='none'" loading="lazy">
-        <img src="研会+艺术团+社团 照片/image65.jpeg" alt="传统乐器" onerror="this.style.display='none'" loading="lazy">
-      </div>
-    </div>
-    <div class="troupe-card">
-      <span class="troupe-emoji">🎸</span>
-      <div class="troupe-name">电声乐队</div>
-      <div class="troupe-desc">汇聚了北大深研院、清华深国际、哈工大（深圳）等高校对音乐饱含热情的学子和老师。扎根大学城，致力于融合多元音乐风格，不定期举办专场音乐节、校园路演、草地音乐会等。</div>
-      <div class="photo-strip">
-        <img src="研会+艺术团+社团 照片/image67.jpeg" alt="乐队表演" onerror="this.style.display='none'" loading="lazy">
-        <img src="研会+艺术团+社团 照片/image68.jpeg" alt="户外演唱" onerror="this.style.display='none'" loading="lazy">
-        <img src="研会+艺术团+社团 照片/image69.jpeg" alt="乐队表演" onerror="this.style.display='none'" loading="lazy">
-      </div>
-    </div>
-    <div class="troupe-card">
-      <span class="troupe-emoji">🏅</span>
-      <div class="troupe-name">体育舞蹈队</div>
-      <div class="troupe-desc">前身为南燕国标舞协会。每周开展国标舞精品课程，教师均为国内顶尖选手。在第五、第六届粤港澳大湾区体育舞蹈公开赛中包揽多项第一名。活跃于镜湖之夜、汇丰艺术团专场、舞蹈专场《画心》等。</div>
-      <div class="photo-strip">
-        <img src="研会+艺术团+社团 照片/image71.jpeg" alt="旗袍舞" onerror="this.style.display='none'" loading="lazy">
-        <img src="研会+艺术团+社团 照片/image72.png" alt="粉色舞蹈" onerror="this.style.display='none'" loading="lazy">
-      </div>
-    </div>
-    <div class="troupe-card">
-      <span class="troupe-emoji">🎙️</span>
-      <div class="troupe-name">主持人队</div>
-      <div class="troupe-desc">在南燕的舞台上始终是点亮聚光灯的璀璨存在。从迎新晚会到十佳歌手大赛，从开学典礼到南燕大讲堂，从镜湖之夜到趣味运动会，以"传播最美南燕"为使命，每次发声都是对南燕魅力的生动诠释。</div>
-      <div class="photo-strip">
-        <img src="研会+艺术团+社团 照片/image73.jpeg" alt="北大logo合影" onerror="this.style.display='none'" loading="lazy">
-        <img src="研会+艺术团+社团 照片/image75.jpeg" alt="主持人讲话" onerror="this.style.display='none'" loading="lazy">
-      </div>
-    </div>
-      <div style="text-align:center;margin-top:10px;padding-top:10px;border-top:1px solid var(--border-light);"><img src="招新二维码/街舞队招新群.png" alt="街舞队招新群" style="width:88px;height:88px;border-radius:8px;border:1px solid var(--border);"><div style="font-size:10px;color:var(--text-light);margin-top:3px;">街舞队招新群</div></div>
-      <div style="text-align:center;margin-top:10px;padding-top:10px;border-top:1px solid var(--border-light);"><img src="招新二维码/舞蹈队招新群.png" alt="舞蹈队招新群" style="width:88px;height:88px;border-radius:8px;border:1px solid var(--border);"><div style="font-size:10px;color:var(--text-light);margin-top:3px;">舞蹈队招新群</div></div>
-      <div style="text-align:center;margin-top:10px;padding-top:10px;border-top:1px solid var(--border-light);"><img src="招新二维码/合唱团招新群.png" alt="合唱队招新群" style="width:88px;height:88px;border-radius:8px;border:1px solid var(--border);"><div style="font-size:10px;color:var(--text-light);margin-top:3px;">合唱队招新群</div></div>
-      <div style="text-align:center;margin-top:10px;padding-top:10px;border-top:1px solid var(--border-light);"><img src="招新二维码/阿卡贝拉队招新群.png" alt="阿卡贝拉队招新群" style="width:88px;height:88px;border-radius:8px;border:1px solid var(--border);"><div style="font-size:10px;color:var(--text-light);margin-top:3px;">阿卡贝拉队招新群</div></div>
-      <div style="text-align:center;margin-top:10px;padding-top:10px;border-top:1px solid var(--border-light);"><img src="招新二维码/器乐队招新群.png" alt="器乐队招新群" style="width:88px;height:88px;border-radius:8px;border:1px solid var(--border);"><div style="font-size:10px;color:var(--text-light);margin-top:3px;">器乐队招新群</div></div>
-      <div style="text-align:center;margin-top:10px;padding-top:10px;border-top:1px solid var(--border-light);"><img src="招新二维码/电声乐队招新群.png" alt="电声乐队招新群" style="width:88px;height:88px;border-radius:8px;border:1px solid var(--border);"><div style="font-size:10px;color:var(--text-light);margin-top:3px;">电声乐队招新群</div></div>
-      <div style="text-align:center;margin-top:10px;padding-top:10px;border-top:1px solid var(--border-light);"><img src="招新二维码/体舞队招新群.png" alt="体育舞蹈队招新群" style="width:88px;height:88px;border-radius:8px;border:1px solid var(--border);"><div style="font-size:10px;color:var(--text-light);margin-top:3px;">体育舞蹈队招新群</div></div>
-      <div style="text-align:center;margin-top:10px;padding-top:10px;border-top:1px solid var(--border-light);"><img src="招新二维码/主持人队招新群.png" alt="主持人队招新群" style="width:88px;height:88px;border-radius:8px;border:1px solid var(--border);"><div style="font-size:10px;color:var(--text-light);margin-top:3px;">主持人队招新群</div></div>
-    </div>
+ <div class="troupe-grid">
+ <div class="troupe-card">
+ <span class="troupe-emoji">🕺</span>
+ <div class="troupe-name">街舞队</div>
+ <div class="troupe-desc">艺术团最有活力的分队之一，风格以 hiphop 和 jazz 为主。新生晚会《What is Love》、运动会《Plot Twist》、舞蹈专场《Genie》《Under the Influence》，更在深圳大学生五四汇演中以《Focus》斩获佳绩。</div>
+ <div class="photo-strip">
+ <img src="研会+艺术团+社团 照片/image47.jpeg" alt="开学典礼" onerror="this.style.display='none'" loading="lazy">
+ <img src="研会+艺术团+社团 照片/image48.png" alt="运动会表演" onerror="this.style.display='none'" loading="lazy">
+ <img src="研会+艺术团+社团 照片/image49.jpeg" alt="五四汇演" onerror="this.style.display='none'" loading="lazy">
+ </div>
+ </div>
+ <div class="troupe-card">
+ <span class="troupe-emoji">💃</span>
+ <div class="troupe-name">舞蹈队</div>
+ <div class="troupe-desc">成立于2009年，以古典舞、民族舞、现代舞为主，是艺术团的王牌分队。代表剧目《喜雨》《林涧》《湘君湘夫人》《浔山行》《雨涧春行图》《戈壁》《天浴》《粤绣粤美》《英歌贺岁》。</div>
+ <div class="photo-strip">
+ <img src="研会+艺术团+社团 照片/image51.png" alt="粤绣粤美" onerror="this.style.display='none'" loading="lazy">
+ <img src="研会+艺术团+社团 照片/image52.jpeg" alt="英歌贺岁" onerror="this.style.display='none'" loading="lazy">
+ <img src="研会+艺术团+社团 照片/image53.jpeg" alt="湘君湘夫人" onerror="this.style.display='none'" loading="lazy">
+ </div>
+ </div>
+ <div class="troupe-card">
+ <span class="troupe-emoji">🎤</span>
+ <div class="troupe-name">合唱队</div>
+ <div class="troupe-desc">成立于2008年，与清华大学深圳国际研究生院合唱团合作组成"清北节拍合团"（TAP CHORUS）。2026年举办"聚光成歌，廿五献礼"专场暨院庆音乐会。亮相西丽湖国际艺术周、新年音乐会、迎新晚会和毕业典礼等。</div>
+ <div class="photo-strip">
+ <img src="研会+艺术团+社团 照片/image55.jpeg" alt="音乐会" onerror="this.style.display='none'" loading="lazy">
+ <img src="研会+艺术团+社团 照片/image56.jpeg" alt="开学典礼" onerror="this.style.display='none'" loading="lazy">
+ <img src="研会+艺术团+社团 照片/image57.png" alt="合唱团专场" onerror="this.style.display='none'" loading="lazy">
+ </div>
+ </div>
+ <div class="troupe-card">
+ <span class="troupe-emoji">🎵</span>
+ <div class="troupe-name">阿卡贝拉队</div>
+ <div class="troupe-desc">CocoaPink 阿卡贝拉乐团隶属于合唱队，以纯人声的非凡表现力呈现无与伦比的听觉盛宴。现面向<strong>北大、清华、哈工大三校</strong>招募——无论 Vocal 还是 BBOXer，都欢迎加入！</div>
+ <div class="photo-strip">
+ <img src="研会+艺术团+社团 照片/image59.jpeg" alt="赛艇之夜" onerror="this.style.display='none'" loading="lazy">
+ <img src="研会+艺术团+社团 照片/image60.jpeg" alt="大学城迎新" onerror="this.style.display='none'" loading="lazy">
+ <img src="研会+艺术团+社团 照片/image61.png" alt="阿卡贝拉表演" onerror="this.style.display='none'" loading="lazy">
+ </div>
+ </div>
+ <div class="troupe-card">
+ <span class="troupe-emoji">🎻</span>
+ <div class="troupe-name">器乐队</div>
+ <div class="troupe-desc">活跃于校内外活动的学生器乐团体，演奏经典民族音乐和西洋音乐，也拥抱现代流行音乐。举办迎新音乐会、"弦思八音·仲夏乐鸣"专场展演等，用音乐连接不同文化和情感。</div>
+ <div class="photo-strip">
+ <img src="研会+艺术团+社团 照片/image63.jpeg" alt="北大logo合影" onerror="this.style.display='none'" loading="lazy">
+ <img src="研会+艺术团+社团 照片/image64.jpeg" alt="器乐表演" onerror="this.style.display='none'" loading="lazy">
+ <img src="研会+艺术团+社团 照片/image65.jpeg" alt="传统乐器" onerror="this.style.display='none'" loading="lazy">
+ </div>
+ </div>
+ <div class="troupe-card">
+ <span class="troupe-emoji">🎸</span>
+ <div class="troupe-name">电声乐队</div>
+ <div class="troupe-desc">汇聚了北大深研院、清华深国际、哈工大（深圳）等高校对音乐饱含热情的学子和老师。扎根大学城，致力于融合多元音乐风格，不定期举办专场音乐节、校园路演、草地音乐会等。</div>
+ <div class="photo-strip">
+ <img src="研会+艺术团+社团 照片/image67.jpeg" alt="乐队表演" onerror="this.style.display='none'" loading="lazy">
+ <img src="研会+艺术团+社团 照片/image68.jpeg" alt="户外演唱" onerror="this.style.display='none'" loading="lazy">
+ <img src="研会+艺术团+社团 照片/image69.jpeg" alt="乐队表演" onerror="this.style.display='none'" loading="lazy">
+ </div>
+ </div>
+ <div class="troupe-card">
+ <span class="troupe-emoji">🏅</span>
+ <div class="troupe-name">体育舞蹈队</div>
+ <div class="troupe-desc">前身为南燕国标舞协会。每周开展国标舞精品课程，教师均为国内顶尖选手。在第五、第六届粤港澳大湾区体育舞蹈公开赛中包揽多项第一名。活跃于镜湖之夜、汇丰艺术团专场、舞蹈专场《画心》等。</div>
+ <div class="photo-strip">
+ <img src="研会+艺术团+社团 照片/image71.jpeg" alt="旗袍舞" onerror="this.style.display='none'" loading="lazy">
+ <img src="研会+艺术团+社团 照片/image72.png" alt="粉色舞蹈" onerror="this.style.display='none'" loading="lazy">
+ <img src="研会+艺术团+社团 照片/image70.jpeg" alt="体育舞蹈" onerror="this.style.display='none'" loading="lazy">
+ </div>
+ </div>
+ <div class="troupe-card">
+ <span class="troupe-emoji">🎙️</span>
+ <div class="troupe-name">主持人队</div>
+ <div class="troupe-desc">在南燕的舞台上始终是点亮聚光灯的璀璨存在。从迎新晚会到十佳歌手大赛，从开学典礼到南燕大讲堂，从镜湖之夜到趣味运动会，以"传播最美南燕"为使命，每次发声都是对南燕魅力的生动诠释。</div>
+ <div class="photo-strip">
+ <img src="研会+艺术团+社团 照片/image73.jpeg" alt="北大logo合影" onerror="this.style.display='none'" loading="lazy">
+ <img src="研会+艺术团+社团 照片/image75.jpeg" alt="主持人讲话" onerror="this.style.display='none'" loading="lazy">
+ <img src="研会+艺术团+社团 照片/image74.jpeg" alt="主持人风采" onerror="this.style.display='none'" loading="lazy">
+ </div>
+ </div>
+ <div style="text-align:center;margin-top:10px;padding-top:10px;border-top:1px solid var(--border-light);"><img src="招新二维码/街舞队招新群.png" alt="街舞队招新群" style="width:88px;height:88px;border-radius:8px;border:1px solid var(--border);"><div style="font-size:10px;color:var(--text-light);margin-top:3px;">街舞队招新群</div></div>
+ <div style="text-align:center;margin-top:10px;padding-top:10px;border-top:1px solid var(--border-light);"><img src="招新二维码/舞蹈队招新群.png" alt="舞蹈队招新群" style="width:88px;height:88px;border-radius:8px;border:1px solid var(--border);"><div style="font-size:10px;color:var(--text-light);margin-top:3px;">舞蹈队招新群</div></div>
+ <div style="text-align:center;margin-top:10px;padding-top:10px;border-top:1px solid var(--border-light);"><img src="招新二维码/合唱团招新群.png" alt="合唱队招新群" style="width:88px;height:88px;border-radius:8px;border:1px solid var(--border);"><div style="font-size:10px;color:var(--text-light);margin-top:3px;">合唱队招新群</div></div>
+ <div style="text-align:center;margin-top:10px;padding-top:10px;border-top:1px solid var(--border-light);"><img src="招新二维码/阿卡贝拉队招新群.png" alt="阿卡贝拉队招新群" style="width:88px;height:88px;border-radius:8px;border:1px solid var(--border);"><div style="font-size:10px;color:var(--text-light);margin-top:3px;">阿卡贝拉队招新群</div></div>
+ <div style="text-align:center;margin-top:10px;padding-top:10px;border-top:1px solid var(--border-light);"><img src="招新二维码/器乐队招新群.png" alt="器乐队招新群" style="width:88px;height:88px;border-radius:8px;border:1px solid var(--border);"><div style="font-size:10px;color:var(--text-light);margin-top:3px;">器乐队招新群</div></div>
+ <div style="text-align:center;margin-top:10px;padding-top:10px;border-top:1px solid var(--border-light);"><img src="招新二维码/电声乐队招新群.png" alt="电声乐队招新群" style="width:88px;height:88px;border-radius:8px;border:1px solid var(--border);"><div style="font-size:10px;color:var(--text-light);margin-top:3px;">电声乐队招新群</div></div>
+ <div style="text-align:center;margin-top:10px;padding-top:10px;border-top:1px solid var(--border-light);"><img src="招新二维码/体舞队招新群.png" alt="体育舞蹈队招新群" style="width:88px;height:88px;border-radius:8px;border:1px solid var(--border);"><div style="font-size:10px;color:var(--text-light);margin-top:3px;">体育舞蹈队招新群</div></div>
+ <div style="text-align:center;margin-top:10px;padding-top:10px;border-top:1px solid var(--border-light);"><img src="招新二维码/主持人队招新群.png" alt="主持人队招新群" style="width:88px;height:88px;border-radius:8px;border:1px solid var(--border);"><div style="font-size:10px;color:var(--text-light);margin-top:3px;">主持人队招新群</div></div>
+ </div>
 
 </div>
 </section>
 
 <!-- ═══════ FOOTER ═══════ -->
 <footer class="page-footer">
-  <div style="margin-bottom:20px;"><img src="招新二维码/网页活码.png" alt="扫码打开招新网页" style="width:100px;height:100px;border-radius:12px;border:3px solid rgba(255,255,255,0.3);"><div style="font-size:11px;color:rgba(255,255,255,0.4);margin-top:6px;">扫码打开招新网页</div></div>
-  <strong>共青团北京大学深圳研究生院委员会</strong>
-  逐光而行，追梦不止 · 欢迎加入南燕共青团系统大家庭<br>
-  青春南燕探索之旅 · 2026–2027 学年招新<br><br>
-  <span style="opacity:0.5;font-size:11px;">Peking University Shenzhen Graduate School · Communist Youth League Committee</span>
+ <div style="margin-bottom:20px;"><img src="招新二维码/网页活码.png" alt="扫码打开招新网页" style="width:100px;height:100px;border-radius:12px;border:3px solid rgba(255,255,255,0.3);"><div style="font-size:11px;color:rgba(255,255,255,0.4);margin-top:6px;">扫码打开招新网页</div></div>
+ <strong>共青团北京大学深圳研究生院委员会</strong>
+ 逐光而行，追梦不止 · 欢迎加入南燕共青团系统大家庭<br>
+ 青春南燕探索之旅 · 2026–2027 学年招新<br><br>
+ <span style="opacity:0.5;font-size:11px;">Peking University Shenzhen Graduate School · Communist Youth League Committee</span>
 </footer>
 
 <!-- ═══════ LIGHTBOX ═══════ -->
 <div class="lightbox" id="lightbox" onclick="closeLightbox()">
-  <span class="lightbox-close">&times;</span>
-  <img src="" alt="预览" id="lightboxImg">
+ <span class="lightbox-close">&times;</span>
+ <img src="" alt="预览" id="lightboxImg">
 </div>
 
 <script>
 function showTab(id, btn) {
-  document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
-  document.querySelectorAll('.nav-tab').forEach(t => t.classList.remove('active'));
-  document.getElementById(id).classList.add('active');
-  btn.classList.add('active');
-  document.getElementById('mainNav').scrollIntoView({ behavior:'smooth', block:'nearest' });
+ document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+ document.querySelectorAll('.nav-tab').forEach(t => t.classList.remove('active'));
+ document.getElementById(id).classList.add('active');
+ btn.classList.add('active');
+ document.getElementById('mainNav').scrollIntoView({ behavior:'smooth', block:'nearest' });
 }
 
 document.querySelectorAll('.photo-strip img, .tl-thumb').forEach(img => {
-  img.addEventListener('click', function(e) {
-    e.stopPropagation();
-    document.getElementById('lightboxImg').src = this.src;
-    document.getElementById('lightbox').classList.add('active');
-  });
+ img.addEventListener('click', function(e) {
+ e.stopPropagation();
+ document.getElementById('lightboxImg').src = this.src;
+ document.getElementById('lightbox').classList.add('active');
+ });
 });
 
 function closeLightbox() {
-  document.getElementById('lightbox').classList.remove('active');
+ document.getElementById('lightbox').classList.remove('active');
 }
 document.addEventListener('keydown', function(e) {
-  if (e.key === 'Escape') closeLightbox();
+ if (e.key === 'Escape') closeLightbox();
 });
 </script>
 
