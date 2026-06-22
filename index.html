@@ -178,7 +178,7 @@
  /* ── SECTIONS ── */
  .section { display:none; }
  .section.active { display:block; }
- .section-inner { max-width: 1040px; margin: 0 auto; padding: 48px 24px 72px; }
+ .section-inner { max-width: 1040px; margin: 0 auto; padding: 48px 24px 72px; overflow-x: hidden; }
  .section-hero {
  text-align: center; padding: 28px 0 40px;
  margin-bottom: 40px; border-bottom: 1px solid var(--border);
@@ -341,7 +341,7 @@
  .et-blue2 { background: var(--blue-light); color: var(--blue-accent); }
 
  /* ── ART TROUPE ── */
- .troupe-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 14px; margin-top: 20px; }
+ .troupe-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 14px; margin-top: 20px; }
  .troupe-card {
  background: var(--white); border: 1.5px solid var(--border); border-radius: var(--radius-md);
  padding: 20px 18px 18px; transition: all 0.25s;
@@ -392,7 +392,7 @@
  .hero-watermark { font-size: 100px; }
  .qr-strip { flex-direction: column; align-items: center; }
  .dept-grid { grid-template-columns: 1fr; }
- .troupe-grid { grid-template-columns: repeat(2, 1fr); }
+ .troupe-grid { grid-template-columns: 1fr; }
  .clubs-grid { grid-template-columns: 1fr; }
  .art-dept-row { grid-template-columns: 1fr; }
  .nav-tab { padding: 12px 12px; font-size: 12px; letter-spacing: 0; }
@@ -401,7 +401,7 @@
  .section-inner { padding: 32px 16px 56px; }
  .qr-row { flex-direction: column; align-items: center; }
  }
- @media (max-width: 400px) { .troupe-grid { grid-template-columns: 1fr; } }
+ 
 </style>
 </head>
 <body>
