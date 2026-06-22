@@ -205,6 +205,7 @@
  background: var(--white); border-radius: 12px; padding: 14px 28px; border: 1px solid var(--border);
  }
  .org-stat-num { font-size: 24px; font-weight: 900; color: var(--red-main); display: block; text-align: center; }
+ .org-stat-unit { font-size: 13px; font-weight: 400; opacity: 0.7; }
  .org-stat-lbl { font-size: 11px; color: var(--text-sub); margin-top: 2px; }
 
  /* ── DIVIDER ── */
@@ -332,6 +333,7 @@
  .clubs-stats { display: flex; gap: 24px; flex-wrap: wrap; margin-top: 20px; padding-top: 18px; border-top: 1px solid var(--border); }
  .club-stat { text-align: center; }
  .club-stat-n { font-size: 26px; font-weight: 900; color: var(--red-main); }
+ .club-stat-unit { font-size: 13px; font-weight: 400; opacity: 0.7; }
  .club-stat-l { font-size: 11px; color: var(--text-sub); }
 
  /* ── EXEC ── */
@@ -466,9 +468,10 @@
  <div class="foreword-icon">📬</div>
  <h2>青春南燕探索之旅</h2>
  <p class="greeting">亲爱的 2026 级南燕萌新们：</p>
- <p>大家好！欢迎来到北京大学深圳研究生院这个温暖又真挚的大家庭，开启属于自己理想的研究生新生活！</p>
- <p>学习科研之余，南国燕园有哪些校园文化氛围营造的主力、汇聚青年之声的群体、集思广益的兴趣团队呢？此时此刻，让我们共同来解锁南燕学生活动之旅，探索兴趣奥秘吧！</p>
- <p>在这里，深研院团委携手研究生会、学生社团以及基层团组织积极开展各项校园文化活动。各组织围绕学术交流、文体活动、思想建设、职业发展、权益维护、公益实践等方面，开展了诸如<strong>镜湖之夜、南燕体育文化节、青年与未来交流沙龙、青春音乐夜跑嘉年华</strong>和<strong>"笃行计划"暑期社会实践</strong>等一系列特色品牌活动。</p>
+ <p>大家好！</p>
+ <p>欢迎来到北京大学深圳研究生院这个温暖又真挚的大家庭，开启属于自己理想的研究生新生活！</p>
+ <p>学习科研之余，南燕园有哪些校园文化氛围营造的主力、汇聚青年之声的群体、集思广益的兴趣团队呢？此时此刻，让我们共同来解锁南燕学生活动之旅，探索兴趣奥秘吧！</p>
+ <p>在这里，深研院团委携手研究生会、学生社团以及基层团组织积极开展各项校园文化活动。各组织围绕学术交流、文体活动、思想建设、职业发展、权益维护、公益实践等方面，开展了诸如<strong>庆国庆迎新生晚会、校园十佳歌手大赛、南燕体育文化节、北大深圳青年讲堂、青年与未来交流沙龙</strong>和<strong>"笃行计划"暑期社会实践</strong>等一系列特色品牌活动。</p>
  <p>下面让我们走进它们，去感受各具特色的活力与创造力，体验精彩时刻！</p>
  <p class="signature">—— 共青团北京大学深圳研究生院委员会</p>
  </div>
@@ -508,11 +511,11 @@
  <div class="org-box light">青年研究中心</div>
  </div>
  <div class="org-stats">
- <div><div class="org-stat-num">67</div><div class="org-stat-lbl">个学生团支部</div></div>
+ <div><div class="org-stat-num">67<span class="org-stat-unit">个</span></div><div class="org-stat-lbl">学生团支部</div></div>
  <div style="width:1px;background:var(--border)"></div>
- <div><div class="org-stat-num">2616</div><div class="org-stat-lbl">名团员</div></div>
+ <div><div class="org-stat-num">2616<span class="org-stat-unit">名</span></div><div class="org-stat-lbl">团员</div></div>
  <div style="width:1px;background:var(--border)"></div>
- <div><div class="org-stat-num">63</div><div class="org-stat-lbl">个学生社团</div></div>
+ <div><div class="org-stat-num">63<span class="org-stat-unit">个</span></div><div class="org-stat-lbl">学生社团</div></div>
  </div>
  </div>
 
@@ -651,7 +654,7 @@
  <img class="tl-thumb" src="2025品牌活动/3-5月 高级团校暨骨干培训班 Advanced Communist Youth League School & Core Members Training Courses.jpg" alt="高级团校骨干培训班" onerror="this.style.display='none'" loading="lazy">
  </div>
  <div class="tl-item">
- <div class="tl-content"><div class="tl-month">4月 April</div><div class="tl-event">南燕大讲堂</div><div class="tl-en">Nanyan Lecture</div></div>
+ <div class="tl-content"><div class="tl-month">4月 April</div><div class="tl-event">「北大深圳青年讲堂」品牌系列讲座</div><div class="tl-en">PKU Shenzhen Youth Lecture</div></div>
  <img class="tl-thumb" src="2025品牌活动/4月 南燕大讲堂 Nanyan Lecture.jpg" alt="南燕大讲堂" onerror="this.style.display='none'" loading="lazy">
  </div>
  <div class="tl-item">
@@ -708,18 +711,18 @@
  <div class="clubs-section">
  <div class="sec-divider"><span>下辖学生社团（63个）</span></div>
  <div class="clubs-grid">
- <div class="clubs-col"><h4>📋 职能类（4个）</h4><ul><li>学生艺术团</li><li>南燕新闻社</li><li>南燕之家</li><li>研究生党建研究会</li></ul></div>
- <div class="clubs-col"><h4>🌱 公益类（4个）</h4><ul><li>绿色+协会</li><li>青年志愿者协会</li><li>公益法律协会</li><li>流浪猫关爱协会</li></ul></div>
- <div class="clubs-col"><h4>⚽ 体育类（17个）</h4><ul><li>足球 · 篮球 · 排球 · 羽毛球 · 网球 · 乒乓球</li><li>游泳 · 跑步 · 健身 · 武术 · 跆拳道</li><li>骑行 · 攀岩 · 飞盘 · 台球 · 高尔夫 · 帆船</li></ul></div>
- <div class="clubs-col"><h4>🎨 兴趣类（6个）</h4><ul><li>摄影协会 · 辩论队 · 书画社</li><li>航天文协会 · 心理学社 · 棋牌协会</li></ul></div>
- <div class="clubs-col"><h4>🚀 实践类（3个）</h4><ul><li>创意创业协会</li><li>青年创业者协会</li><li>职业发展协会</li></ul></div>
- <div class="clubs-col"><h4>📚 学术类（29个）</h4><ul><li>博雅金融学社 · 管理咨询协会 · 基金研究协会</li><li>金融科技协会 · 商业模式创新协会</li><li>产业发展协会 · 创新创业协会 等 29 个</li></ul></div>
+ <div class="clubs-col"><h4>📋 职能类（4）</h4><ul><li>学生艺术团</li><li>南燕新闻社</li><li>南燕之家</li><li>研究生党建研究会</li></ul></div>
+ <div class="clubs-col"><h4>🌱 公益类（4）</h4><ul><li>学生绿色+协会</li><li>学生青年志愿者协会</li><li>学生公益法律协会</li><li>学生流浪猫关爱协会</li></ul></div>
+ <div class="clubs-col"><h4>🚀 实践类（3）</h4><ul><li>学生创意创业协会</li><li>学生青年创业者协会</li><li>学生职业发展协会</li></ul></div>
+ <div class="clubs-col"><h4>⚽ 体育类（17）</h4><ul><li>学生足球协会</li><li>学生篮球协会</li><li>学生排球协会</li><li>学生乒乓球协会</li><li>学生羽毛球协会</li><li>学生网球协会</li><li>学生台球协会</li><li>学生游泳协会</li><li>学生马拉松协会</li><li>学生瑜伽协会</li><li>学生国术协会</li><li>学生拳击协会</li><li>学生射箭协会</li><li>学生自行车协会</li><li>学生飞盘协会</li><li>学生鲲鹏协会</li><li>学生蛟龙协会</li></ul></div>
+ <div class="clubs-col"><h4>🎨 兴趣类（6）</h4><ul><li>学生摄影协会</li><li>学生棋牌协会</li><li>学生辩论协会</li><li>学生南燕书画社</li><li>学生南船天文协会</li><li>学生南风心理学社</li></ul></div>
+ <div class="clubs-col"><h4>📚 学术类（29）</h4><ul><li>学生博雅金融学社</li><li>学生产业发展学会</li><li>学生创业投资与私募股权协会</li><li>学生管理咨询协会</li><li>学生基金研究协会</li><li>学生金融科技协会</li><li>学生经济学会</li><li>学生经济政策协会</li><li>学生量化交易协会</li><li>学生商业关系协会</li><li>学生商业模式协会</li><li>学生商业银行协会</li><li>学生深港经济金融协会</li><li>学生数理经济协会</li><li>学生投行律所协会</li><li>学生投资交流协会</li><li>学生未来媒体实验室</li><li>学生证券投资协会</li><li>学生中小企业协会</li><li>学生资本市场协会</li><li>学生未名创投协会</li><li>学生固定收益投资协会</li><li>学生法律职业女性协会</li><li>学生知识产权协会</li><li>学生公法协会</li><li>IEEE学生分会</li><li>学生区块链协会</li><li>学生城市学会</li><li>学生素质人文研究协会</li></ul></div>
  </div>
  <div class="clubs-stats">
- <div class="club-stat"><div class="club-stat-n">63</div><div class="club-stat-l">个社团</div></div>
- <div class="club-stat"><div class="club-stat-n">60+</div><div class="club-stat-l">场/年大型活动</div></div>
+ <div class="club-stat"><div class="club-stat-n">63<span class="club-stat-unit">个</span></div><div class="club-stat-l">社团</div></div>
+ <div class="club-stat"><div class="club-stat-n">60+<span class="club-stat-unit">场/年</span></div><div class="club-stat-l">大型活动</div></div>
  <div class="club-stat"><div class="club-stat-n">5万+</div><div class="club-stat-l">公众号粉丝</div></div>
- <div class="club-stat"><div class="club-stat-n">6</div><div class="club-stat-l">大类别</div></div>
+ <div class="club-stat"><div class="club-stat-n">6<span class="club-stat-unit">大</span></div><div class="club-stat-l">类别</div></div>
  </div>
  </div>
 
@@ -883,9 +886,9 @@
 
  <div class="section-hero">
  <div class="section-title-cn s-purple">北京大学深圳研究生院学生艺术团</div>
- <div class="section-slogan">学用艺术 · 优秀又优雅</div>
+ <div class="section-slogan">学术加艺术 · 优秀又优雅</div>
  <p class="section-desc">
- 北京大学深圳研究生院学生艺术团（简称艺术团）成立于2008年，隶属于北京大学深圳研究生院团委。艺术团自成立以来，逐步发展出多样化的艺术队伍，涉及更多元的艺术形式，如舞蹈、器乐、合唱、乐队以及阿卡贝拉等。参与了北大深研院建院20周年晚会、迎新晚会、镜湖之夜、校园十佳歌手、校本部跨年晚会等各类校园活动。学生艺术团下设<strong>3个职能部门、6支艺术队伍（其中器乐队包含1支电声乐队，合唱队包含1支阿卡贝拉队）</strong>。
+ 北京大学深圳研究生院学生艺术团成立于2008年，隶属于北京大学深圳研究生院团委。学生艺术团自成立以来，逐步发展出多样化的艺术队伍，涉及更多元的艺术形式，如舞蹈、器乐、合唱、乐队以及阿卡贝拉等。参与了北大深研院建院20周年晚会、迎新晚会、镜湖之夜、校园十佳歌手、校本部跨年晚会等各类校园活动。学生艺术团下设<strong>3个职能部门、6支艺术队伍（其中器乐队包含1支电声乐队，合唱队包含1支阿卡贝拉队）</strong>。
  </p>
  </div>
 
@@ -911,17 +914,17 @@
  <div class="art-dept-card">
  <div class="adc-num">01</div>
  <div class="adc-name">组织策划部</div>
- <div class="adc-desc">负责艺术团参与各项重大活动的策划、组织、联络。沟通团委职能部门、研会等各个学生团体，联动各方面力量开展工作，策划与组织艺术团各支队伍参与到多样的艺术展示活动中，是学生艺术团沟通的重要桥梁。</div>
+ <div class="adc-desc">负责学生艺术团参与各项重大活动的策划、组织、联络。沟通团委职能部门、研会等各个学生团体，联动各方面力量开展工作，策划与组织学生艺术团各支队伍参与到多样的艺术展示活动中，是学生艺术团沟通的重要桥梁。</div>
  </div>
  <div class="art-dept-card">
  <div class="adc-num">02</div>
  <div class="adc-name">宣传推广部</div>
- <div class="adc-desc">负责艺术团全维度宣传，从发布活动公告、定格成员艺术高光，到传递团队理念与精神，让校园看见艺术团的每一份精彩。作为艺术团"发声窗口"，用文字、画面与创意搭建起师生与艺术活动的桥梁。</div>
+ <div class="adc-desc">负责学生艺术团全维度宣传，从发布活动公告、定格成员艺术高光，到传递团队理念与精神，让校园看见学生艺术团的每一份精彩。作为学生艺术团"发声窗口"，用文字、画面与创意搭建起师生与艺术活动的桥梁。</div>
  </div>
  <div class="art-dept-card">
  <div class="adc-num">03</div>
  <div class="adc-name">综合管理部</div>
- <div class="adc-desc">负责艺术团各项综合事务的办公与办理，涉及艺术团财务管理、信息对接、物资统筹等方面综合事务，协助各支艺术队伍开展工作，建设多种形式的艺术团团建交流活动，是凝聚艺术团力量的重要职能部门。</div>
+ <div class="adc-desc">负责学生艺术团各项综合事务的办公与办理，涉及学生艺术团财务管理、信息对接、物资统筹等方面综合事务，协助各支艺术队伍开展工作，建设多种形式的学生艺术团团建交流活动，是凝聚学生艺术团力量的重要职能部门。</div>
  </div>
  </div>
 
@@ -932,7 +935,7 @@
  <div class="troupe-card">
  <span class="troupe-emoji">🕺</span>
  <div class="troupe-name">街舞队</div>
- <div class="troupe-desc">艺术团最有活力的分队之一，风格以 hiphop 和 jazz 为主。新生晚会《What is Love》、运动会《Plot Twist》、舞蹈专场《Genie》《Under the Influence》，更在深圳大学生五四汇演中以《Focus》斩获佳绩。</div>
+ <div class="troupe-desc">学生艺术团最有活力的分队之一，风格以 hiphop 和 jazz 为主。新生晚会《What is Love》、运动会《Plot Twist》、舞蹈专场《Genie》《Under the Influence》，更在深圳大学生五四汇演中以《Focus》斩获佳绩。</div>
  <div class="photo-strip">
  <img src="研会+艺术团+社团 照片/image47.jpeg" alt="开学典礼" onerror="this.style.display='none'" loading="lazy">
  <img src="研会+艺术团+社团 照片/image48.jpg" alt="运动会表演" onerror="this.style.display='none'" loading="lazy">
@@ -942,7 +945,7 @@
  <div class="troupe-card">
  <span class="troupe-emoji">💃</span>
  <div class="troupe-name">舞蹈队</div>
- <div class="troupe-desc">成立于2009年，以古典舞、民族舞、现代舞为主，是艺术团的王牌分队。代表剧目《喜雨》《林涧》《湘君湘夫人》《浔山行》《雨涧春行图》《戈壁》《天浴》《粤绣粤美》《英歌贺岁》。</div>
+ <div class="troupe-desc">成立于2009年，以古典舞、民族舞、现代舞为主，是学生艺术团的王牌分队。代表剧目《喜雨》《林涧》《湘君湘夫人》《浔山行》《雨涧春行图》《戈壁》《天浴》《粤绣粤美》《英歌贺岁》。</div>
  <div class="photo-strip">
  <img src="研会+艺术团+社团 照片/image51.jpg" alt="粤绣粤美" onerror="this.style.display='none'" loading="lazy">
  <img src="研会+艺术团+社团 照片/image52.jpeg" alt="英歌贺岁" onerror="this.style.display='none'" loading="lazy">
